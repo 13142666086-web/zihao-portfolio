@@ -10,3 +10,4 @@ assets/projects/**/*.mp4
 assets/projects/**/*.mov
 assets/projects/**/*.MP3
 assets/projects/**/*.mp3
+.vercel
