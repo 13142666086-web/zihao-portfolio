@@ -1,0 +1,12 @@
+node_modules/
+.local-node/
+dist/
+.DS_Store
+node-v*.tar.gz
+npm-debug.log*
+*.log
+assets/projects/2026/医图生科/
+assets/projects/**/*.mp4
+assets/projects/**/*.mov
+assets/projects/**/*.MP3
+assets/projects/**/*.mp3

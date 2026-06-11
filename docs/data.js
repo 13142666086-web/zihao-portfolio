@@ -1,0 +1,2057 @@
+window.PORTFOLIO_DATA = {
+  "profile": {
+    "name": "Zhuanz",
+    "title": "品牌活动 / 城市文旅 / 医疗科技内容项目",
+    "location": "Suzhou / Shanghai",
+    "intro": "把线下活动、品牌资料和内容产出整理成可浏览、可回看、可证明的项目档案。",
+    "keywords": [
+      "活动执行",
+      "品牌传播",
+      "文旅内容",
+      "企业会务",
+      "医疗科技"
+    ]
+  },
+  "projects": [
+    {
+      "id": "2026-医图生科",
+      "year": "2026",
+      "title": "医图生科",
+      "category": "医疗科技",
+      "tags": [
+        "医疗科技",
+        "品牌策略",
+        "内容运营",
+        "商务材料"
+      ],
+      "role": "品牌体系搭建 / 内容运营 / 路演与会务材料协同",
+      "cover": "assets/projects/2026/医图生科/logo/logo.png",
+      "images": [
+        {
+          "name": "资源 2@3x.png",
+          "src": "assets/projects/2026/医图生科/PPT模板/card/3x/资源 2@3x.png",
+          "section": "视觉模板"
+        },
+        {
+          "name": "资源 3@3x.png",
+          "src": "assets/projects/2026/医图生科/PPT模板/card/3x/资源 3@3x.png",
+          "section": "视觉模板"
+        },
+        {
+          "name": "ppt目录-06.jpg",
+          "src": "assets/projects/2026/医图生科/PPT模板/ppt扉页/ppt目录-06.jpg",
+          "section": "视觉模板"
+        },
+        {
+          "name": "资源 10@3x.png",
+          "src": "assets/projects/2026/医图生科/PPT模板/ppt扉页/资源 10@3x.png",
+          "section": "视觉模板"
+        },
+        {
+          "name": "logo.png",
+          "src": "assets/projects/2026/医图生科/logo/logo.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "天蓝.png",
+          "src": "assets/projects/2026/医图生科/logo/天蓝.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "头像.png",
+          "src": "assets/projects/2026/医图生科/logo/头像.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "未标题-2.png",
+          "src": "assets/projects/2026/医图生科/logo/未标题-2.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "淡蓝.png",
+          "src": "assets/projects/2026/医图生科/logo/淡蓝.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "深蓝色.png",
+          "src": "assets/projects/2026/医图生科/logo/深蓝色.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "白logo.png",
+          "src": "assets/projects/2026/医图生科/logo/白logo.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "白头像.png",
+          "src": "assets/projects/2026/医图生科/logo/白头像.png",
+          "section": "Logo资产"
+        },
+        {
+          "name": "微信图片_20260224144025_204_234.png",
+          "src": "assets/projects/2026/医图生科/vi设计/签名档/微信图片_20260224144025_204_234.png",
+          "section": "视觉资料协同"
+        },
+        {
+          "name": "签名档.png",
+          "src": "assets/projects/2026/医图生科/vi设计/签名档/签名档背景图/签名档.png",
+          "section": "视觉资料协同"
+        },
+        {
+          "name": "签名档背景图.png",
+          "src": "assets/projects/2026/医图生科/vi设计/签名档/签名档背景图/签名档背景图.png",
+          "section": "视觉资料协同"
+        },
+        {
+          "name": "医图生科名片设计.png",
+          "src": "assets/projects/2026/医图生科/名片/医图生科名片设计.png",
+          "section": "品牌触点"
+        },
+        {
+          "name": "李博名片.png",
+          "src": "assets/projects/2026/医图生科/名片/李博名片.png",
+          "section": "品牌触点"
+        },
+        {
+          "name": "Exhibition-3.png",
+          "src": "assets/projects/2026/医图生科/大会/Exhibition-3.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "1.png",
+          "src": "assets/projects/2026/医图生科/大会/token兑换券/1.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "2.png",
+          "src": "assets/projects/2026/医图生科/大会/token兑换券/2.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "3.png",
+          "src": "assets/projects/2026/医图生科/大会/token兑换券/3.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "横版.png",
+          "src": "assets/projects/2026/医图生科/大会/横版.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "海报设计.png",
+          "src": "assets/projects/2026/医图生科/大会/海报设计.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "海报设计底图.png",
+          "src": "assets/projects/2026/医图生科/大会/海报设计底图.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "f0715e69d6d283be0f373f2c324c6cd0.png",
+          "src": "assets/projects/2026/医图生科/大会/衣服2/f0715e69d6d283be0f373f2c324c6cd0.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "宝蓝.png",
+          "src": "assets/projects/2026/医图生科/大会/衣服2/衣服/宝蓝.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "藏蓝.png",
+          "src": "assets/projects/2026/医图生科/大会/衣服2/衣服/藏蓝.png",
+          "section": "会务物料"
+        },
+        {
+          "name": "平台界面.jpg",
+          "src": "assets/projects/2026/医图生科/宣传视频/平台界面.jpg",
+          "section": "宣传内容"
+        },
+        {
+          "name": "管线情况.png",
+          "src": "assets/projects/2026/医图生科/宣传视频/管线情况.png",
+          "section": "宣传内容"
+        },
+        {
+          "name": "资源 1.png",
+          "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 1.png",
+          "section": "宣传手册"
+        },
+        {
+          "name": "资源 2.png",
+          "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 2.png",
+          "section": "宣传手册"
+        },
+        {
+          "name": "资源 3.png",
+          "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 3.png",
+          "section": "宣传手册"
+        },
+        {
+          "name": "资源 4.png",
+          "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 4.png",
+          "section": "宣传手册"
+        },
+        {
+          "name": "f2569a19ecaa4fffff49d2181ab5999c.png",
+          "src": "assets/projects/2026/医图生科/新春海报/f2569a19ecaa4fffff49d2181ab5999c.png",
+          "section": "节日物料"
+        },
+        {
+          "name": "ScreenShot_2026-03-31_135739_577.png",
+          "src": "assets/projects/2026/医图生科/甘特图/ScreenShot_2026-03-31_135739_577.png",
+          "section": "项目管理"
+        },
+        {
+          "name": "QureGenAI立项时就发现了.png",
+          "src": "assets/projects/2026/医图生科/视频/访谈切片/QureGenAI立项时就发现了.png",
+          "section": "视频传播"
+        },
+        {
+          "name": "为什么AI制药不行了？.png",
+          "src": "assets/projects/2026/医图生科/视频/访谈切片/为什么AI制药不行了？.png",
+          "section": "视频传播"
+        },
+        {
+          "name": "你的技术领先，为啥没人买.png",
+          "src": "assets/projects/2026/医图生科/视频/访谈切片/你的技术领先，为啥没人买.png",
+          "section": "视频传播"
+        }
+      ],
+      "docs": [
+        {
+          "name": "医图生科PPT模版(1).pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/PPT%E6%A8%A1%E6%9D%BF/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91PPT%E6%A8%A1%E7%89%88%281%29.pptx",
+          "type": "PPTX",
+          "section": "视觉模板"
+        },
+        {
+          "name": "logo.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/logo/logo.pdf",
+          "type": "PDF",
+          "section": "Logo资产"
+        },
+        {
+          "name": "源文件.ai",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/logo/%E6%BA%90%E6%96%87%E4%BB%B6.ai",
+          "type": "AI",
+          "section": "Logo资产"
+        },
+        {
+          "name": "QureGenAI-pitchbook-quantum aidd platform-CN.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E4%B8%AD%E6%96%87/QureGenAI-pitchbook-quantum%20aidd%20platform-CN.pptx",
+          "type": "PPTX",
+          "section": "融资路演"
+        },
+        {
+          "name": "QureGenAI-pitchbook-tyxonq- CN.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E4%B8%AD%E6%96%87/QureGenAI-pitchbook-tyxonq-%20CN.pptx",
+          "type": "PPTX",
+          "section": "融资路演"
+        },
+        {
+          "name": "QureGenAl-pitchbook-pipeline and company intro-CN.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E4%B8%AD%E6%96%87/QureGenAl-pitchbook-pipeline%20and%20company%20intro-CN.pptx",
+          "type": "PPTX",
+          "section": "融资路演"
+        },
+        {
+          "name": "QureGenAI-pitchbook-pipeline-EN.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E8%8B%B1%E6%96%87/QureGenAI-pitchbook-pipeline-EN.pptx",
+          "type": "PPTX",
+          "section": "融资路演"
+        },
+        {
+          "name": "QureGenAI-pitchbook-quantum aidd platform-EN-V2.0 (1).pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E8%8B%B1%E6%96%87/QureGenAI-pitchbook-quantum%20aidd%20platform-EN-V2.0%20%281%29.pptx",
+          "type": "PPTX",
+          "section": "融资路演"
+        },
+        {
+          "name": "QureGenAI-pitchbook-tyxonq-EN.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E8%8B%B1%E6%96%87/QureGenAI-pitchbook-tyxonq-EN.pptx",
+          "type": "PPTX",
+          "section": "融资路演"
+        },
+        {
+          "name": "医图生科 QUREGENAI VI设计.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/vi%E8%AE%BE%E8%AE%A1/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%20QUREGENAI%20VI%E8%AE%BE%E8%AE%A1.pptx",
+          "type": "PPTX",
+          "section": "视觉资料协同"
+        },
+        {
+          "name": "签名档.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/vi%E8%AE%BE%E8%AE%A1/%E7%AD%BE%E5%90%8D%E6%A1%A3/%E7%AD%BE%E5%90%8D%E6%A1%A3%E8%83%8C%E6%99%AF%E5%9B%BE/%E7%AD%BE%E5%90%8D%E6%A1%A3.pdf",
+          "type": "PDF",
+          "section": "视觉资料协同"
+        },
+        {
+          "name": "医图生科公司介绍 20260130 V8-中文.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/CN/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D%2020260130%20V8-%E4%B8%AD%E6%96%87.pdf",
+          "type": "PDF",
+          "section": "公司资料"
+        },
+        {
+          "name": "医图生科公司介绍 20260130 V8-中文.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/CN/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D%2020260130%20V8-%E4%B8%AD%E6%96%87.pptx",
+          "type": "PPTX",
+          "section": "公司资料"
+        },
+        {
+          "name": "医图生科量子AI制药介绍-中文版.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/CN/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E9%87%8F%E5%AD%90AI%E5%88%B6%E8%8D%AF%E4%BB%8B%E7%BB%8D-%E4%B8%AD%E6%96%87%E7%89%88.pptx",
+          "type": "PPTX",
+          "section": "公司资料"
+        },
+        {
+          "name": "QureGenAl Company Deck EN 20260130 V7.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/%E8%8B%B1%E6%96%87/QureGenAl%20Company%20Deck%20EN%2020260130%20V7.pptx",
+          "type": "PPTX",
+          "section": "公司资料"
+        },
+        {
+          "name": "QureGenAl Company Deck EN 20260130 V8(2).pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/%E8%8B%B1%E6%96%87/QureGenAl%20Company%20Deck%20EN%2020260130%20V8%282%29.pdf",
+          "type": "PDF",
+          "section": "公司资料"
+        },
+        {
+          "name": "card.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%90%8D%E7%89%87/card.pdf",
+          "type": "PDF",
+          "section": "品牌触点"
+        },
+        {
+          "name": "医图生科名片设计 (1)(1).pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%90%8D%E7%89%87/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%20%281%29%281%29.pdf",
+          "type": "PDF",
+          "section": "品牌触点"
+        },
+        {
+          "name": "医图生科品牌定位策略.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%93%81%E7%89%8C%E5%AE%9A%E4%BD%8D/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%93%81%E7%89%8C%E5%AE%9A%E4%BD%8D%E7%AD%96%E7%95%A5.pptx",
+          "type": "PPTX",
+          "section": "品牌策略"
+        },
+        {
+          "name": "2050活动礼品推荐.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/2050%E6%B4%BB%E5%8A%A8%E7%A4%BC%E5%93%81%E6%8E%A8%E8%8D%90.pdf",
+          "type": "PDF",
+          "section": "会务物料"
+        },
+        {
+          "name": "2050预算费用清单.docx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/2050%E9%A2%84%E7%AE%97%E8%B4%B9%E7%94%A8%E6%B8%85%E5%8D%95.docx",
+          "type": "DOCX",
+          "section": "会务物料"
+        },
+        {
+          "name": "伴手礼推荐.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/%E4%BC%B4%E6%89%8B%E7%A4%BC%E6%8E%A8%E8%8D%90.pdf",
+          "type": "PDF",
+          "section": "会务物料"
+        },
+        {
+          "name": "小龙虾宣传脚本.docx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91/%E5%B0%8F%E9%BE%99%E8%99%BE%E5%AE%A3%E4%BC%A0%E8%84%9A%E6%9C%AC.docx",
+          "type": "DOCX",
+          "section": "宣传内容"
+        },
+        {
+          "name": "2026会议调研.xlsx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%B1%95%E4%BC%9A%E6%8E%A8%E8%8D%90/2026%E4%BC%9A%E8%AE%AE%E8%B0%83%E7%A0%94.xlsx",
+          "type": "XLSX",
+          "section": "行业展会"
+        },
+        {
+          "name": "QureGenAl-company brochure 20260227 - vS.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%89%8B%E5%86%8C%E8%AE%BE%E8%AE%A1/QureGenAl-company%20brochure%2020260227%20-%20vS.pdf",
+          "type": "PDF",
+          "section": "宣传手册"
+        },
+        {
+          "name": "QureGenAl-company brochure 20260227 - vS.pptx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%89%8B%E5%86%8C%E8%AE%BE%E8%AE%A1/QureGenAl-company%20brochure%2020260227%20-%20vS.pptx",
+          "type": "PPTX",
+          "section": "宣传手册"
+        },
+        {
+          "name": "封面封底.ai",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%89%8B%E5%86%8C%E8%AE%BE%E8%AE%A1/%E5%B0%81%E9%9D%A2%E5%B0%81%E5%BA%95.ai",
+          "type": "AI",
+          "section": "宣传手册"
+        },
+        {
+          "name": "医图生科3-4月报.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%913-4%E6%9C%88%E6%8A%A5.pdf",
+          "type": "PDF",
+          "section": "月报复盘"
+        },
+        {
+          "name": "医图生科三月月报.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E4%B8%89%E6%9C%88%E6%9C%88%E6%8A%A5.pdf",
+          "type": "PDF",
+          "section": "月报复盘"
+        },
+        {
+          "name": "医图生科月报.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E6%9C%88%E6%8A%A5.pdf",
+          "type": "PDF",
+          "section": "月报复盘"
+        },
+        {
+          "name": "年后医图生科月报.docx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%B9%B4%E5%90%8E%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E6%9C%88%E6%8A%A5.docx",
+          "type": "DOCX",
+          "section": "月报复盘"
+        },
+        {
+          "name": "医图生科2025年度品牌营销规划表.xlsx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E7%94%98%E7%89%B9%E5%9B%BE/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%912025%E5%B9%B4%E5%BA%A6%E5%93%81%E7%89%8C%E8%90%A5%E9%94%80%E8%A7%84%E5%88%92%E8%A1%A8.xlsx",
+          "type": "XLSX",
+          "section": "项目管理"
+        },
+        {
+          "name": "医图生科公众号排版.docx",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%B4%A6%E5%8F%B7%E6%90%AD%E5%BB%BA%E5%92%8C%E9%A3%8E%E6%A0%BC%E8%AE%BE%E8%AE%A1/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88.docx",
+          "type": "DOCX",
+          "section": "内容运营"
+        },
+        {
+          "name": "账号搭建和风格设计.pdf",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%B4%A6%E5%8F%B7%E6%90%AD%E5%BB%BA%E5%92%8C%E9%A3%8E%E6%A0%BC%E8%AE%BE%E8%AE%A1/%E8%B4%A6%E5%8F%B7%E6%90%AD%E5%BB%BA%E5%92%8C%E9%A3%8E%E6%A0%BC%E8%AE%BE%E8%AE%A1.pdf",
+          "type": "PDF",
+          "section": "内容运营"
+        }
+      ],
+      "media": [
+        {
+          "name": "李总演讲.MP3",
+          "src": "assets/projects/2026/医图生科/大会/李总演讲.MP3",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/%E6%9D%8E%E6%80%BB%E6%BC%94%E8%AE%B2.MP3",
+          "kind": "audio",
+          "type": "MP3",
+          "section": "会务物料"
+        },
+        {
+          "name": "李总访谈.MP3",
+          "src": "assets/projects/2026/医图生科/大会/李总访谈.MP3",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/%E6%9D%8E%E6%80%BB%E8%AE%BF%E8%B0%88.MP3",
+          "kind": "audio",
+          "type": "MP3",
+          "section": "会务物料"
+        },
+        {
+          "name": "对标视频.mp4",
+          "src": "assets/projects/2026/医图生科/宣传视频/对标视频.mp4",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91/%E5%AF%B9%E6%A0%87%E8%A7%86%E9%A2%91.mp4",
+          "kind": "video",
+          "type": "MP4",
+          "section": "宣传内容"
+        },
+        {
+          "name": "2050回顾.mp4",
+          "src": "assets/projects/2026/医图生科/视频/2050回顾.mp4",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/2050%E5%9B%9E%E9%A1%BE.mp4",
+          "kind": "video",
+          "type": "MP4",
+          "section": "视频传播"
+        },
+        {
+          "name": "2050回顾快闪.mp4",
+          "src": "assets/projects/2026/医图生科/视频/2050回顾快闪.mp4",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/2050%E5%9B%9E%E9%A1%BE%E5%BF%AB%E9%97%AA.mp4",
+          "kind": "video",
+          "type": "MP4",
+          "section": "视频传播"
+        },
+        {
+          "name": "国富量子快闪.mp4",
+          "src": "assets/projects/2026/医图生科/视频/国富量子快闪.mp4",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/%E5%9B%BD%E5%AF%8C%E9%87%8F%E5%AD%90%E5%BF%AB%E9%97%AA.mp4",
+          "kind": "video",
+          "type": "MP4",
+          "section": "视频传播"
+        },
+        {
+          "name": "靶点调研BD快闪.mp4",
+          "src": "assets/projects/2026/医图生科/视频/靶点调研BD快闪.mp4",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/%E9%9D%B6%E7%82%B9%E8%B0%83%E7%A0%94BD%E5%BF%AB%E9%97%AA.mp4",
+          "kind": "video",
+          "type": "MP4",
+          "section": "视频传播"
+        }
+      ],
+      "sections": [
+        {
+          "source": "PPT模板",
+          "title": "视觉模板",
+          "note": "PPT 版式、目录页、封面视觉和演示规范。",
+          "images": [
+            {
+              "name": "资源 2@3x.png",
+              "src": "assets/projects/2026/医图生科/PPT模板/card/3x/资源 2@3x.png",
+              "section": "视觉模板"
+            },
+            {
+              "name": "资源 3@3x.png",
+              "src": "assets/projects/2026/医图生科/PPT模板/card/3x/资源 3@3x.png",
+              "section": "视觉模板"
+            },
+            {
+              "name": "ppt目录-06.jpg",
+              "src": "assets/projects/2026/医图生科/PPT模板/ppt扉页/ppt目录-06.jpg",
+              "section": "视觉模板"
+            },
+            {
+              "name": "资源 10@3x.png",
+              "src": "assets/projects/2026/医图生科/PPT模板/ppt扉页/资源 10@3x.png",
+              "section": "视觉模板"
+            }
+          ],
+          "docs": [
+            {
+              "name": "医图生科PPT模版(1).pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/PPT%E6%A8%A1%E6%9D%BF/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91PPT%E6%A8%A1%E7%89%88%281%29.pptx",
+              "type": "PPTX",
+              "section": "视觉模板"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "logo",
+          "title": "Logo资产",
+          "note": "不同颜色、用途和格式的 logo 文件。",
+          "images": [
+            {
+              "name": "logo.png",
+              "src": "assets/projects/2026/医图生科/logo/logo.png",
+              "section": "Logo资产"
+            },
+            {
+              "name": "天蓝.png",
+              "src": "assets/projects/2026/医图生科/logo/天蓝.png",
+              "section": "Logo资产"
+            },
+            {
+              "name": "头像.png",
+              "src": "assets/projects/2026/医图生科/logo/头像.png",
+              "section": "Logo资产"
+            },
+            {
+              "name": "未标题-2.png",
+              "src": "assets/projects/2026/医图生科/logo/未标题-2.png",
+              "section": "Logo资产"
+            },
+            {
+              "name": "淡蓝.png",
+              "src": "assets/projects/2026/医图生科/logo/淡蓝.png",
+              "section": "Logo资产"
+            },
+            {
+              "name": "深蓝色.png",
+              "src": "assets/projects/2026/医图生科/logo/深蓝色.png",
+              "section": "Logo资产"
+            },
+            {
+              "name": "白logo.png",
+              "src": "assets/projects/2026/医图生科/logo/白logo.png",
+              "section": "Logo资产"
+            },
+            {
+              "name": "白头像.png",
+              "src": "assets/projects/2026/医图生科/logo/白头像.png",
+              "section": "Logo资产"
+            }
+          ],
+          "docs": [
+            {
+              "name": "logo.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/logo/logo.pdf",
+              "type": "PDF",
+              "section": "Logo资产"
+            },
+            {
+              "name": "源文件.ai",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/logo/%E6%BA%90%E6%96%87%E4%BB%B6.ai",
+              "type": "AI",
+              "section": "Logo资产"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "pitchbook",
+          "title": "融资路演",
+          "note": "中英文 pitchbook、公司介绍和技术方案材料。",
+          "images": [],
+          "docs": [
+            {
+              "name": "QureGenAI-pitchbook-quantum aidd platform-CN.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E4%B8%AD%E6%96%87/QureGenAI-pitchbook-quantum%20aidd%20platform-CN.pptx",
+              "type": "PPTX",
+              "section": "融资路演"
+            },
+            {
+              "name": "QureGenAI-pitchbook-tyxonq- CN.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E4%B8%AD%E6%96%87/QureGenAI-pitchbook-tyxonq-%20CN.pptx",
+              "type": "PPTX",
+              "section": "融资路演"
+            },
+            {
+              "name": "QureGenAl-pitchbook-pipeline and company intro-CN.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E4%B8%AD%E6%96%87/QureGenAl-pitchbook-pipeline%20and%20company%20intro-CN.pptx",
+              "type": "PPTX",
+              "section": "融资路演"
+            },
+            {
+              "name": "QureGenAI-pitchbook-pipeline-EN.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E8%8B%B1%E6%96%87/QureGenAI-pitchbook-pipeline-EN.pptx",
+              "type": "PPTX",
+              "section": "融资路演"
+            },
+            {
+              "name": "QureGenAI-pitchbook-quantum aidd platform-EN-V2.0 (1).pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E8%8B%B1%E6%96%87/QureGenAI-pitchbook-quantum%20aidd%20platform-EN-V2.0%20%281%29.pptx",
+              "type": "PPTX",
+              "section": "融资路演"
+            },
+            {
+              "name": "QureGenAI-pitchbook-tyxonq-EN.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/pitchbook/%E8%8B%B1%E6%96%87/QureGenAI-pitchbook-tyxonq-EN.pptx",
+              "type": "PPTX",
+              "section": "融资路演"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "vi设计",
+          "title": "视觉资料协同",
+          "note": "品牌视觉资料、签名档和视觉规范材料的协同整理。",
+          "images": [
+            {
+              "name": "微信图片_20260224144025_204_234.png",
+              "src": "assets/projects/2026/医图生科/vi设计/签名档/微信图片_20260224144025_204_234.png",
+              "section": "视觉资料协同"
+            },
+            {
+              "name": "签名档.png",
+              "src": "assets/projects/2026/医图生科/vi设计/签名档/签名档背景图/签名档.png",
+              "section": "视觉资料协同"
+            },
+            {
+              "name": "签名档背景图.png",
+              "src": "assets/projects/2026/医图生科/vi设计/签名档/签名档背景图/签名档背景图.png",
+              "section": "视觉资料协同"
+            }
+          ],
+          "docs": [
+            {
+              "name": "医图生科 QUREGENAI VI设计.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/vi%E8%AE%BE%E8%AE%A1/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%20QUREGENAI%20VI%E8%AE%BE%E8%AE%A1.pptx",
+              "type": "PPTX",
+              "section": "视觉资料协同"
+            },
+            {
+              "name": "签名档.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/vi%E8%AE%BE%E8%AE%A1/%E7%AD%BE%E5%90%8D%E6%A1%A3/%E7%AD%BE%E5%90%8D%E6%A1%A3%E8%83%8C%E6%99%AF%E5%9B%BE/%E7%AD%BE%E5%90%8D%E6%A1%A3.pdf",
+              "type": "PDF",
+              "section": "视觉资料协同"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "公司介绍",
+          "title": "公司资料",
+          "note": "中英文公司介绍、平台能力和管线介绍。",
+          "images": [],
+          "docs": [
+            {
+              "name": "医图生科公司介绍 20260130 V8-中文.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/CN/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D%2020260130%20V8-%E4%B8%AD%E6%96%87.pdf",
+              "type": "PDF",
+              "section": "公司资料"
+            },
+            {
+              "name": "医图生科公司介绍 20260130 V8-中文.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/CN/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D%2020260130%20V8-%E4%B8%AD%E6%96%87.pptx",
+              "type": "PPTX",
+              "section": "公司资料"
+            },
+            {
+              "name": "医图生科量子AI制药介绍-中文版.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/CN/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E9%87%8F%E5%AD%90AI%E5%88%B6%E8%8D%AF%E4%BB%8B%E7%BB%8D-%E4%B8%AD%E6%96%87%E7%89%88.pptx",
+              "type": "PPTX",
+              "section": "公司资料"
+            },
+            {
+              "name": "QureGenAl Company Deck EN 20260130 V7.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/%E8%8B%B1%E6%96%87/QureGenAl%20Company%20Deck%20EN%2020260130%20V7.pptx",
+              "type": "PPTX",
+              "section": "公司资料"
+            },
+            {
+              "name": "QureGenAl Company Deck EN 20260130 V8(2).pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D/%E8%8B%B1%E6%96%87/QureGenAl%20Company%20Deck%20EN%2020260130%20V8%282%29.pdf",
+              "type": "PDF",
+              "section": "公司资料"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "名片",
+          "title": "品牌触点",
+          "note": "名片设计和对外商务触点。",
+          "images": [
+            {
+              "name": "医图生科名片设计.png",
+              "src": "assets/projects/2026/医图生科/名片/医图生科名片设计.png",
+              "section": "品牌触点"
+            },
+            {
+              "name": "李博名片.png",
+              "src": "assets/projects/2026/医图生科/名片/李博名片.png",
+              "section": "品牌触点"
+            }
+          ],
+          "docs": [
+            {
+              "name": "card.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%90%8D%E7%89%87/card.pdf",
+              "type": "PDF",
+              "section": "品牌触点"
+            },
+            {
+              "name": "医图生科名片设计 (1)(1).pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%90%8D%E7%89%87/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%20%281%29%281%29.pdf",
+              "type": "PDF",
+              "section": "品牌触点"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "品牌定位",
+          "title": "品牌策略",
+          "note": "品牌定位与传播策略材料。",
+          "images": [],
+          "docs": [
+            {
+              "name": "医图生科品牌定位策略.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%93%81%E7%89%8C%E5%AE%9A%E4%BD%8D/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%93%81%E7%89%8C%E5%AE%9A%E4%BD%8D%E7%AD%96%E7%95%A5.pptx",
+              "type": "PPTX",
+              "section": "品牌策略"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "大会",
+          "title": "会务物料",
+          "note": "大会海报、预算、礼品、音频和现场传播素材。",
+          "images": [
+            {
+              "name": "Exhibition-3.png",
+              "src": "assets/projects/2026/医图生科/大会/Exhibition-3.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "1.png",
+              "src": "assets/projects/2026/医图生科/大会/token兑换券/1.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "2.png",
+              "src": "assets/projects/2026/医图生科/大会/token兑换券/2.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "3.png",
+              "src": "assets/projects/2026/医图生科/大会/token兑换券/3.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "横版.png",
+              "src": "assets/projects/2026/医图生科/大会/横版.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "海报设计.png",
+              "src": "assets/projects/2026/医图生科/大会/海报设计.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "海报设计底图.png",
+              "src": "assets/projects/2026/医图生科/大会/海报设计底图.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "f0715e69d6d283be0f373f2c324c6cd0.png",
+              "src": "assets/projects/2026/医图生科/大会/衣服2/f0715e69d6d283be0f373f2c324c6cd0.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "宝蓝.png",
+              "src": "assets/projects/2026/医图生科/大会/衣服2/衣服/宝蓝.png",
+              "section": "会务物料"
+            },
+            {
+              "name": "藏蓝.png",
+              "src": "assets/projects/2026/医图生科/大会/衣服2/衣服/藏蓝.png",
+              "section": "会务物料"
+            }
+          ],
+          "docs": [
+            {
+              "name": "2050活动礼品推荐.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/2050%E6%B4%BB%E5%8A%A8%E7%A4%BC%E5%93%81%E6%8E%A8%E8%8D%90.pdf",
+              "type": "PDF",
+              "section": "会务物料"
+            },
+            {
+              "name": "2050预算费用清单.docx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/2050%E9%A2%84%E7%AE%97%E8%B4%B9%E7%94%A8%E6%B8%85%E5%8D%95.docx",
+              "type": "DOCX",
+              "section": "会务物料"
+            },
+            {
+              "name": "伴手礼推荐.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/%E4%BC%B4%E6%89%8B%E7%A4%BC%E6%8E%A8%E8%8D%90.pdf",
+              "type": "PDF",
+              "section": "会务物料"
+            }
+          ],
+          "media": [
+            {
+              "name": "李总演讲.MP3",
+              "src": "assets/projects/2026/医图生科/大会/李总演讲.MP3",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/%E6%9D%8E%E6%80%BB%E6%BC%94%E8%AE%B2.MP3",
+              "kind": "audio",
+              "type": "MP3",
+              "section": "会务物料"
+            },
+            {
+              "name": "李总访谈.MP3",
+              "src": "assets/projects/2026/医图生科/大会/李总访谈.MP3",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%A4%A7%E4%BC%9A/%E6%9D%8E%E6%80%BB%E8%AE%BF%E8%B0%88.MP3",
+              "kind": "audio",
+              "type": "MP3",
+              "section": "会务物料"
+            }
+          ]
+        },
+        {
+          "source": "宣传视频",
+          "title": "宣传内容",
+          "note": "宣传脚本、平台界面、管线图和对标视频。",
+          "images": [
+            {
+              "name": "平台界面.jpg",
+              "src": "assets/projects/2026/医图生科/宣传视频/平台界面.jpg",
+              "section": "宣传内容"
+            },
+            {
+              "name": "管线情况.png",
+              "src": "assets/projects/2026/医图生科/宣传视频/管线情况.png",
+              "section": "宣传内容"
+            }
+          ],
+          "docs": [
+            {
+              "name": "小龙虾宣传脚本.docx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91/%E5%B0%8F%E9%BE%99%E8%99%BE%E5%AE%A3%E4%BC%A0%E8%84%9A%E6%9C%AC.docx",
+              "type": "DOCX",
+              "section": "宣传内容"
+            }
+          ],
+          "media": [
+            {
+              "name": "对标视频.mp4",
+              "src": "assets/projects/2026/医图生科/宣传视频/对标视频.mp4",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91/%E5%AF%B9%E6%A0%87%E8%A7%86%E9%A2%91.mp4",
+              "kind": "video",
+              "type": "MP4",
+              "section": "宣传内容"
+            }
+          ]
+        },
+        {
+          "source": "展会推荐",
+          "title": "行业展会",
+          "note": "会议调研和展会推荐资料。",
+          "images": [],
+          "docs": [
+            {
+              "name": "2026会议调研.xlsx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E5%B1%95%E4%BC%9A%E6%8E%A8%E8%8D%90/2026%E4%BC%9A%E8%AE%AE%E8%B0%83%E7%A0%94.xlsx",
+              "type": "XLSX",
+              "section": "行业展会"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "手册设计",
+          "title": "宣传手册",
+          "note": "公司 brochure、封面封底和印刷物料。",
+          "images": [
+            {
+              "name": "资源 1.png",
+              "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 1.png",
+              "section": "宣传手册"
+            },
+            {
+              "name": "资源 2.png",
+              "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 2.png",
+              "section": "宣传手册"
+            },
+            {
+              "name": "资源 3.png",
+              "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 3.png",
+              "section": "宣传手册"
+            },
+            {
+              "name": "资源 4.png",
+              "src": "assets/projects/2026/医图生科/手册设计/2000ppi/资源 4.png",
+              "section": "宣传手册"
+            }
+          ],
+          "docs": [
+            {
+              "name": "QureGenAl-company brochure 20260227 - vS.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%89%8B%E5%86%8C%E8%AE%BE%E8%AE%A1/QureGenAl-company%20brochure%2020260227%20-%20vS.pdf",
+              "type": "PDF",
+              "section": "宣传手册"
+            },
+            {
+              "name": "QureGenAl-company brochure 20260227 - vS.pptx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%89%8B%E5%86%8C%E8%AE%BE%E8%AE%A1/QureGenAl-company%20brochure%2020260227%20-%20vS.pptx",
+              "type": "PPTX",
+              "section": "宣传手册"
+            },
+            {
+              "name": "封面封底.ai",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%89%8B%E5%86%8C%E8%AE%BE%E8%AE%A1/%E5%B0%81%E9%9D%A2%E5%B0%81%E5%BA%95.ai",
+              "type": "AI",
+              "section": "宣传手册"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "新春海报",
+          "title": "节日物料",
+          "note": "节日传播海报与视觉物料协同。",
+          "images": [
+            {
+              "name": "f2569a19ecaa4fffff49d2181ab5999c.png",
+              "src": "assets/projects/2026/医图生科/新春海报/f2569a19ecaa4fffff49d2181ab5999c.png",
+              "section": "节日物料"
+            }
+          ],
+          "docs": [],
+          "media": []
+        },
+        {
+          "source": "月报",
+          "title": "月报复盘",
+          "note": "阶段性工作月报、复盘文档和进展记录。",
+          "images": [],
+          "docs": [
+            {
+              "name": "医图生科3-4月报.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%913-4%E6%9C%88%E6%8A%A5.pdf",
+              "type": "PDF",
+              "section": "月报复盘"
+            },
+            {
+              "name": "医图生科三月月报.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E4%B8%89%E6%9C%88%E6%9C%88%E6%8A%A5.pdf",
+              "type": "PDF",
+              "section": "月报复盘"
+            },
+            {
+              "name": "医图生科月报.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E6%9C%88%E6%8A%A5.pdf",
+              "type": "PDF",
+              "section": "月报复盘"
+            },
+            {
+              "name": "年后医图生科月报.docx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E6%9C%88%E6%8A%A5/%E5%B9%B4%E5%90%8E%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E6%9C%88%E6%8A%A5.docx",
+              "type": "DOCX",
+              "section": "月报复盘"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "甘特图",
+          "title": "项目管理",
+          "note": "年度品牌营销规划和项目排期。",
+          "images": [
+            {
+              "name": "ScreenShot_2026-03-31_135739_577.png",
+              "src": "assets/projects/2026/医图生科/甘特图/ScreenShot_2026-03-31_135739_577.png",
+              "section": "项目管理"
+            }
+          ],
+          "docs": [
+            {
+              "name": "医图生科2025年度品牌营销规划表.xlsx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E7%94%98%E7%89%B9%E5%9B%BE/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%912025%E5%B9%B4%E5%BA%A6%E5%93%81%E7%89%8C%E8%90%A5%E9%94%80%E8%A7%84%E5%88%92%E8%A1%A8.xlsx",
+              "type": "XLSX",
+              "section": "项目管理"
+            }
+          ],
+          "media": []
+        },
+        {
+          "source": "视频",
+          "title": "视频传播",
+          "note": "活动回顾、快闪视频和访谈切片。",
+          "images": [
+            {
+              "name": "QureGenAI立项时就发现了.png",
+              "src": "assets/projects/2026/医图生科/视频/访谈切片/QureGenAI立项时就发现了.png",
+              "section": "视频传播"
+            },
+            {
+              "name": "为什么AI制药不行了？.png",
+              "src": "assets/projects/2026/医图生科/视频/访谈切片/为什么AI制药不行了？.png",
+              "section": "视频传播"
+            },
+            {
+              "name": "你的技术领先，为啥没人买.png",
+              "src": "assets/projects/2026/医图生科/视频/访谈切片/你的技术领先，为啥没人买.png",
+              "section": "视频传播"
+            }
+          ],
+          "docs": [],
+          "media": [
+            {
+              "name": "2050回顾.mp4",
+              "src": "assets/projects/2026/医图生科/视频/2050回顾.mp4",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/2050%E5%9B%9E%E9%A1%BE.mp4",
+              "kind": "video",
+              "type": "MP4",
+              "section": "视频传播"
+            },
+            {
+              "name": "2050回顾快闪.mp4",
+              "src": "assets/projects/2026/医图生科/视频/2050回顾快闪.mp4",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/2050%E5%9B%9E%E9%A1%BE%E5%BF%AB%E9%97%AA.mp4",
+              "kind": "video",
+              "type": "MP4",
+              "section": "视频传播"
+            },
+            {
+              "name": "国富量子快闪.mp4",
+              "src": "assets/projects/2026/医图生科/视频/国富量子快闪.mp4",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/%E5%9B%BD%E5%AF%8C%E9%87%8F%E5%AD%90%E5%BF%AB%E9%97%AA.mp4",
+              "kind": "video",
+              "type": "MP4",
+              "section": "视频传播"
+            },
+            {
+              "name": "靶点调研BD快闪.mp4",
+              "src": "assets/projects/2026/医图生科/视频/靶点调研BD快闪.mp4",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%A7%86%E9%A2%91/%E9%9D%B6%E7%82%B9%E8%B0%83%E7%A0%94BD%E5%BF%AB%E9%97%AA.mp4",
+              "kind": "video",
+              "type": "MP4",
+              "section": "视频传播"
+            }
+          ]
+        },
+        {
+          "source": "账号搭建和风格设计",
+          "title": "内容运营",
+          "note": "公众号排版、账号风格和内容视觉规范。",
+          "images": [],
+          "docs": [
+            {
+              "name": "医图生科公众号排版.docx",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%B4%A6%E5%8F%B7%E6%90%AD%E5%BB%BA%E5%92%8C%E9%A3%8E%E6%A0%BC%E8%AE%BE%E8%AE%A1/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88.docx",
+              "type": "DOCX",
+              "section": "内容运营"
+            },
+            {
+              "name": "账号搭建和风格设计.pdf",
+              "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2026/%E5%8C%BB%E5%9B%BE%E7%94%9F%E7%A7%91/%E8%B4%A6%E5%8F%B7%E6%90%AD%E5%BB%BA%E5%92%8C%E9%A3%8E%E6%A0%BC%E8%AE%BE%E8%AE%A1/%E8%B4%A6%E5%8F%B7%E6%90%AD%E5%BB%BA%E5%92%8C%E9%A3%8E%E6%A0%BC%E8%AE%BE%E8%AE%A1.pdf",
+              "type": "PDF",
+              "section": "内容运营"
+            }
+          ],
+          "media": []
+        }
+      ],
+      "featured": true,
+      "summary": "围绕医疗科技品牌内容、路演材料、会务物料与视频传播形成的综合项目档案。"
+    },
+    {
+      "id": "2025-大阪世博会苏州日",
+      "year": "2025",
+      "title": "大阪世博会苏州日",
+      "category": "城市文旅",
+      "tags": [
+        "城市传播",
+        "政府活动",
+        "文旅"
+      ],
+      "role": "城市传播 / 活动内容 / 视觉资料整理",
+      "cover": "assets/projects/2025/大阪世博会苏州日/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/大阪世博会苏州日/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141709_812.jpg",
+          "src": "assets/projects/2025/大阪世博会苏州日/微信图片_2026-06-10_141709_812.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141741_310.jpg",
+          "src": "assets/projects/2025/大阪世博会苏州日/微信图片_2026-06-10_141741_310.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [
+        {
+          "name": "录屏2026-06-10 14.14.31.mov",
+          "src": "assets/projects/2025/大阪世博会苏州日/录屏2026-06-10 14.14.31.mov",
+          "url": "file:///Users/Zhuanz/Desktop/%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/2025/%E5%A4%A7%E9%98%AA%E4%B8%96%E5%8D%9A%E4%BC%9A%E8%8B%8F%E5%B7%9E%E6%97%A5/%E5%BD%95%E5%B1%8F2026-06-10%2014.14.31.mov",
+          "kind": "video",
+          "type": "MOV"
+        }
+      ],
+      "featured": false,
+      "summary": "围绕城市文化、活动现场和传播内容形成的项目记录，适合展示文旅策划与视觉整理能力。"
+    },
+    {
+      "id": "2025-太平洋寿险苏州分公司2025半年度峰会",
+      "year": "2025",
+      "title": "太平洋寿险苏州分公司2025半年度峰会",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142105_393.jpg",
+          "src": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/微信图片_2026-06-10_142105_393.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142108_897.jpg",
+          "src": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/微信图片_2026-06-10_142108_897.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142117_384.jpg",
+          "src": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/微信图片_2026-06-10_142117_384.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142122_106.jpg",
+          "src": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/微信图片_2026-06-10_142122_106.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142129_502.jpg",
+          "src": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/微信图片_2026-06-10_142129_502.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142133_469.jpg",
+          "src": "assets/projects/2025/太平洋寿险苏州分公司2025半年度峰会/微信图片_2026-06-10_142133_469.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2025-江都七夕非遗盛会",
+      "year": "2025",
+      "title": "江都七夕非遗盛会",
+      "category": "文旅活动",
+      "tags": [
+        "非遗",
+        "城市文化",
+        "活动策划"
+      ],
+      "role": "城市传播 / 活动内容 / 视觉资料整理",
+      "cover": "assets/projects/2025/江都七夕非遗盛会/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/江都七夕非遗盛会/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142209_166.jpg",
+          "src": "assets/projects/2025/江都七夕非遗盛会/微信图片_2026-06-10_142209_166.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142214_873.jpg",
+          "src": "assets/projects/2025/江都七夕非遗盛会/微信图片_2026-06-10_142214_873.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142217_771.jpg",
+          "src": "assets/projects/2025/江都七夕非遗盛会/微信图片_2026-06-10_142217_771.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142237_414.jpg",
+          "src": "assets/projects/2025/江都七夕非遗盛会/微信图片_2026-06-10_142237_414.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "围绕城市文化、活动现场和传播内容形成的项目记录，适合展示文旅策划与视觉整理能力。"
+    },
+    {
+      "id": "2025-第二届酥香迎春花市",
+      "year": "2025",
+      "title": "第二届“酥”香迎春花市",
+      "category": "文旅活动",
+      "tags": [
+        "节庆市集",
+        "城市文化",
+        "活动视觉"
+      ],
+      "role": "城市传播 / 活动内容 / 视觉资料整理",
+      "cover": "assets/projects/2025/第二届酥香迎春花市/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141037_353.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/微信图片_2026-06-10_141037_353.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141041_217.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/微信图片_2026-06-10_141041_217.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141043_830.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/微信图片_2026-06-10_141043_830.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141046_541.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/微信图片_2026-06-10_141046_541.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141049_407.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/微信图片_2026-06-10_141049_407.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141052_233.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/微信图片_2026-06-10_141052_233.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141054_859.jpg",
+          "src": "assets/projects/2025/第二届酥香迎春花市/微信图片_2026-06-10_141054_859.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "围绕城市文化、活动现场和传播内容形成的项目记录，适合展示文旅策划与视觉整理能力。"
+    },
+    {
+      "id": "2025-苏分太保2025年教师节表彰盛典",
+      "year": "2025",
+      "title": "苏分太保2025年教师节表彰盛典",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2025/苏分太保2025年教师节表彰盛典/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/苏分太保2025年教师节表彰盛典/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142302_177.jpg",
+          "src": "assets/projects/2025/苏分太保2025年教师节表彰盛典/微信图片_2026-06-10_142302_177.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142308_499.jpg",
+          "src": "assets/projects/2025/苏分太保2025年教师节表彰盛典/微信图片_2026-06-10_142308_499.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142312_508.jpg",
+          "src": "assets/projects/2025/苏分太保2025年教师节表彰盛典/微信图片_2026-06-10_142312_508.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142324_625.jpg",
+          "src": "assets/projects/2025/苏分太保2025年教师节表彰盛典/微信图片_2026-06-10_142324_625.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142327_561.jpg",
+          "src": "assets/projects/2025/苏分太保2025年教师节表彰盛典/微信图片_2026-06-10_142327_561.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2025-苏分太保家傳家族办公室私享会",
+      "year": "2025",
+      "title": "苏分太保家傳家族办公室私享会",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2025/苏分太保家傳家族办公室私享会/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/苏分太保家傳家族办公室私享会/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142357_908.jpg",
+          "src": "assets/projects/2025/苏分太保家傳家族办公室私享会/微信图片_2026-06-10_142357_908.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142401_017.jpg",
+          "src": "assets/projects/2025/苏分太保家傳家族办公室私享会/微信图片_2026-06-10_142401_017.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142403_854.jpg",
+          "src": "assets/projects/2025/苏分太保家傳家族办公室私享会/微信图片_2026-06-10_142403_854.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142408_699.jpg",
+          "src": "assets/projects/2025/苏分太保家傳家族办公室私享会/微信图片_2026-06-10_142408_699.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2025-苏分太保数字人生解码新春联谊会",
+      "year": "2025",
+      "title": "苏分太保数字人生解码新春联谊会",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2025/苏分太保数字人生解码新春联谊会/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/苏分太保数字人生解码新春联谊会/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141144_236.jpg",
+          "src": "assets/projects/2025/苏分太保数字人生解码新春联谊会/微信图片_2026-06-10_141144_236.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141147_640.jpg",
+          "src": "assets/projects/2025/苏分太保数字人生解码新春联谊会/微信图片_2026-06-10_141147_640.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141151_205.jpg",
+          "src": "assets/projects/2025/苏分太保数字人生解码新春联谊会/微信图片_2026-06-10_141151_205.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141200_019.jpg",
+          "src": "assets/projects/2025/苏分太保数字人生解码新春联谊会/微信图片_2026-06-10_141200_019.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141202_949.jpg",
+          "src": "assets/projects/2025/苏分太保数字人生解码新春联谊会/微信图片_2026-06-10_141202_949.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2025-苏分太保鑫禧年年分红型产品发布会",
+      "year": "2025",
+      "title": "苏分太保鑫禧年年分红型产品发布会",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2025/苏分太保鑫禧年年分红型产品发布会/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/苏分太保鑫禧年年分红型产品发布会/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141957_113.jpg",
+          "src": "assets/projects/2025/苏分太保鑫禧年年分红型产品发布会/微信图片_2026-06-10_141957_113.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142005_335.jpg",
+          "src": "assets/projects/2025/苏分太保鑫禧年年分红型产品发布会/微信图片_2026-06-10_142005_335.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142009_182.jpg",
+          "src": "assets/projects/2025/苏分太保鑫禧年年分红型产品发布会/微信图片_2026-06-10_142009_182.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_142015_158.jpg",
+          "src": "assets/projects/2025/苏分太保鑫禧年年分红型产品发布会/微信图片_2026-06-10_142015_158.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2025-苏州太保家园首届春光拾趣主题活动",
+      "year": "2025",
+      "title": "苏州太保家园首届春光拾趣主题活动",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141244_381.jpg",
+          "src": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/微信图片_2026-06-10_141244_381.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141247_248.jpg",
+          "src": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/微信图片_2026-06-10_141247_248.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141249_990.jpg",
+          "src": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/微信图片_2026-06-10_141249_990.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141252_616.jpg",
+          "src": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/微信图片_2026-06-10_141252_616.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141256_275.jpg",
+          "src": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/微信图片_2026-06-10_141256_275.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_141300_291.jpg",
+          "src": "assets/projects/2025/苏州太保家园首届春光拾趣主题活动/微信图片_2026-06-10_141300_291.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2024-2024苏州太湖国庆度假计划",
+      "year": "2024",
+      "title": "2024苏州太湖国庆度假计划",
+      "category": "文旅活动",
+      "tags": [
+        "文旅",
+        "城市度假",
+        "内容传播"
+      ],
+      "role": "城市传播 / 活动内容 / 视觉资料整理",
+      "cover": "assets/projects/2024/2024苏州太湖国庆度假计划/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140426_276.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/微信图片_2026-06-10_140426_276.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140448_554.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/微信图片_2026-06-10_140448_554.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140452_064.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/微信图片_2026-06-10_140452_064.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140502_467.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/微信图片_2026-06-10_140502_467.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140505_061.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/微信图片_2026-06-10_140505_061.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140510_249.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/微信图片_2026-06-10_140510_249.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140515_905.jpg",
+          "src": "assets/projects/2024/2024苏州太湖国庆度假计划/微信图片_2026-06-10_140515_905.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "围绕城市文化、活动现场和传播内容形成的项目记录，适合展示文旅策划与视觉整理能力。"
+    },
+    {
+      "id": "2024-waic世界人工智能大会",
+      "year": "2024",
+      "title": "waic世界人工智能大会",
+      "category": "科技大会",
+      "tags": [
+        "人工智能",
+        "会展",
+        "行业大会"
+      ],
+      "role": "品牌建设 / 内容运营 / 商务材料协同",
+      "cover": "assets/projects/2024/waic世界人工智能大会/cover.png",
+      "images": [
+        {
+          "name": "ScreenShot_2026-06-10_135627_801.png",
+          "src": "assets/projects/2024/waic世界人工智能大会/ScreenShot_2026-06-10_135627_801.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135642_416.png",
+          "src": "assets/projects/2024/waic世界人工智能大会/ScreenShot_2026-06-10_135642_416.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135659_183.png",
+          "src": "assets/projects/2024/waic世界人工智能大会/ScreenShot_2026-06-10_135659_183.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135715_384.png",
+          "src": "assets/projects/2024/waic世界人工智能大会/ScreenShot_2026-06-10_135715_384.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135735_400.png",
+          "src": "assets/projects/2024/waic世界人工智能大会/ScreenShot_2026-06-10_135735_400.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135758_317.png",
+          "src": "assets/projects/2024/waic世界人工智能大会/ScreenShot_2026-06-10_135758_317.png"
+        },
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2024/waic世界人工智能大会/cover.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "医疗科技与行业传播相关项目，强调资料整理、内容表达和项目协同。"
+    },
+    {
+      "id": "2024-中国太保Cπ康养财富规划师-苏州站",
+      "year": "2024",
+      "title": "中国太保Cπ康养财富规划师 苏州站",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2024/中国太保Cπ康养财富规划师-苏州站/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2024/中国太保Cπ康养财富规划师-苏州站/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140730_711.jpg",
+          "src": "assets/projects/2024/中国太保Cπ康养财富规划师-苏州站/微信图片_2026-06-10_140730_711.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140735_121.jpg",
+          "src": "assets/projects/2024/中国太保Cπ康养财富规划师-苏州站/微信图片_2026-06-10_140735_121.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140747_384.jpg",
+          "src": "assets/projects/2024/中国太保Cπ康养财富规划师-苏州站/微信图片_2026-06-10_140747_384.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2024-太平洋寿险苏州分公司2024年开门红",
+      "year": "2024",
+      "title": "太平洋寿险苏州分公司2024年开门红",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140833_648.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/微信图片_2026-06-10_140833_648.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140839_945.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/微信图片_2026-06-10_140839_945.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140842_528.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/微信图片_2026-06-10_140842_528.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140845_210.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/微信图片_2026-06-10_140845_210.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140848_948.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/微信图片_2026-06-10_140848_948.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140851_762.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年开门红/微信图片_2026-06-10_140851_762.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2024-太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修",
+      "year": "2024",
+      "title": "太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修",
+      "category": "企业会务",
+      "tags": [
+        "保险金融",
+        "企业会务",
+        "活动视觉"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140626_103.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/微信图片_2026-06-10_140626_103.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140629_243.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/微信图片_2026-06-10_140629_243.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140632_010.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/微信图片_2026-06-10_140632_010.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140634_646.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/微信图片_2026-06-10_140634_646.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140637_370.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/微信图片_2026-06-10_140637_370.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140640_880.jpg",
+          "src": "assets/projects/2024/太平洋寿险苏州分公司2024年教师节表彰盛典暨师资赋能研修/微信图片_2026-06-10_140640_880.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "企业会务与品牌活动项目，集中体现线下执行、内容物料和活动视觉管理。"
+    },
+    {
+      "id": "2024-树兰医院肝胆养护苏州发布会",
+      "year": "2024",
+      "title": "树兰医院肝胆养护苏州发布会",
+      "category": "医疗健康",
+      "tags": [
+        "医疗健康",
+        "发布会",
+        "品牌传播"
+      ],
+      "role": "品牌建设 / 内容运营 / 商务材料协同",
+      "cover": "assets/projects/2024/树兰医院肝胆养护苏州发布会/cover.jpg",
+      "images": [
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2024/树兰医院肝胆养护苏州发布会/cover.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140923_356.jpg",
+          "src": "assets/projects/2024/树兰医院肝胆养护苏州发布会/微信图片_2026-06-10_140923_356.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140930_877.jpg",
+          "src": "assets/projects/2024/树兰医院肝胆养护苏州发布会/微信图片_2026-06-10_140930_877.jpg"
+        },
+        {
+          "name": "微信图片_2026-06-10_140933_651.jpg",
+          "src": "assets/projects/2024/树兰医院肝胆养护苏州发布会/微信图片_2026-06-10_140933_651.jpg"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "医疗科技与行业传播相关项目，强调资料整理、内容表达和项目协同。"
+    },
+    {
+      "id": "2024-跟着地名看苏州",
+      "year": "2024",
+      "title": "跟着地名看苏州",
+      "category": "城市文旅",
+      "tags": [
+        "城市文化",
+        "文旅传播",
+        "内容策划"
+      ],
+      "role": "城市传播 / 活动内容 / 视觉资料整理",
+      "cover": "assets/projects/2024/跟着地名看苏州/cover.png",
+      "images": [
+        {
+          "name": "ScreenShot_2026-06-10_140001_916.png",
+          "src": "assets/projects/2024/跟着地名看苏州/ScreenShot_2026-06-10_140001_916.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_140012_316.png",
+          "src": "assets/projects/2024/跟着地名看苏州/ScreenShot_2026-06-10_140012_316.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_140021_498.png",
+          "src": "assets/projects/2024/跟着地名看苏州/ScreenShot_2026-06-10_140021_498.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_140030_501.png",
+          "src": "assets/projects/2024/跟着地名看苏州/ScreenShot_2026-06-10_140030_501.png"
+        },
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2024/跟着地名看苏州/cover.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "围绕城市文化、活动现场和传播内容形成的项目记录，适合展示文旅策划与视觉整理能力。"
+    },
+    {
+      "id": "2024-青浦616城市漫步",
+      "year": "2024",
+      "title": "青浦616城市漫步",
+      "category": "城市文旅",
+      "tags": [
+        "城市漫步",
+        "文旅传播",
+        "社群活动"
+      ],
+      "role": "城市传播 / 活动内容 / 视觉资料整理",
+      "cover": "assets/projects/2024/青浦616城市漫步/cover.png",
+      "images": [
+        {
+          "name": "ScreenShot_2026-06-10_135840_932.png",
+          "src": "assets/projects/2024/青浦616城市漫步/ScreenShot_2026-06-10_135840_932.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135854_333.png",
+          "src": "assets/projects/2024/青浦616城市漫步/ScreenShot_2026-06-10_135854_333.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135904_600.png",
+          "src": "assets/projects/2024/青浦616城市漫步/ScreenShot_2026-06-10_135904_600.png"
+        },
+        {
+          "name": "ScreenShot_2026-06-10_135916_099.png",
+          "src": "assets/projects/2024/青浦616城市漫步/ScreenShot_2026-06-10_135916_099.png"
+        },
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2024/青浦616城市漫步/cover.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "围绕城市文化、活动现场和传播内容形成的项目记录，适合展示文旅策划与视觉整理能力。"
+    },
+    {
+      "id": "2023-EDC发布会",
+      "year": "2023",
+      "title": "EDC发布会",
+      "category": "商业活动",
+      "tags": [
+        "商业空间",
+        "发布会",
+        "视觉传播"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2023/EDC发布会/cover.png",
+      "images": [
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2023/EDC发布会/cover.png"
+        },
+        {
+          "name": "图片3.png",
+          "src": "assets/projects/2023/EDC发布会/图片3.png"
+        },
+        {
+          "name": "图片4.png",
+          "src": "assets/projects/2023/EDC发布会/图片4.png"
+        },
+        {
+          "name": "图片5.png",
+          "src": "assets/projects/2023/EDC发布会/图片5.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "商业空间、品牌活动和传播素材的项目记录，突出活动氛围与视觉产出。"
+    },
+    {
+      "id": "2023-ibis-全球巡演",
+      "year": "2023",
+      "title": "ibis 全球巡演",
+      "category": "商业活动",
+      "tags": [
+        "酒店品牌",
+        "巡演活动",
+        "线下传播"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2023/ibis-全球巡演/cover.png",
+      "images": [
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2023/ibis-全球巡演/cover.png"
+        },
+        {
+          "name": "图片15.png",
+          "src": "assets/projects/2023/ibis-全球巡演/图片15.png"
+        },
+        {
+          "name": "图片16.png",
+          "src": "assets/projects/2023/ibis-全球巡演/图片16.png"
+        },
+        {
+          "name": "图片17.png",
+          "src": "assets/projects/2023/ibis-全球巡演/图片17.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "商业空间、品牌活动和传播素材的项目记录，突出活动氛围与视觉产出。"
+    },
+    {
+      "id": "2023-light-up-EDC",
+      "year": "2023",
+      "title": "light up EDC",
+      "category": "商业活动",
+      "tags": [
+        "商业空间",
+        "发布会",
+        "视觉传播"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2023/light-up-EDC/cover.png",
+      "images": [
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2023/light-up-EDC/cover.png"
+        },
+        {
+          "name": "图片6.png",
+          "src": "assets/projects/2023/light-up-EDC/图片6.png"
+        },
+        {
+          "name": "图片7.png",
+          "src": "assets/projects/2023/light-up-EDC/图片7.png"
+        },
+        {
+          "name": "图片8.png",
+          "src": "assets/projects/2023/light-up-EDC/图片8.png"
+        },
+        {
+          "name": "图片9.png",
+          "src": "assets/projects/2023/light-up-EDC/图片9.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "商业空间、品牌活动和传播素材的项目记录，突出活动氛围与视觉产出。"
+    },
+    {
+      "id": "2023-东吴天街-灌篮高手",
+      "year": "2023",
+      "title": "东吴天街 灌篮高手",
+      "category": "商业活动",
+      "tags": [
+        "商业空间",
+        "IP活动",
+        "品牌传播"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2023/东吴天街-灌篮高手/cover.png",
+      "images": [
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2023/东吴天街-灌篮高手/cover.png"
+        },
+        {
+          "name": "图片1.png",
+          "src": "assets/projects/2023/东吴天街-灌篮高手/图片1.png"
+        },
+        {
+          "name": "图片2.png",
+          "src": "assets/projects/2023/东吴天街-灌篮高手/图片2.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "商业空间、品牌活动和传播素材的项目记录，突出活动氛围与视觉产出。"
+    },
+    {
+      "id": "2023-昆山金鹰B馆开业",
+      "year": "2023",
+      "title": "昆山金鹰B馆开业",
+      "category": "商业活动",
+      "tags": [
+        "商业开业",
+        "商场活动",
+        "品牌传播"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2023/昆山金鹰B馆开业/cover.png",
+      "images": [
+        {
+          "name": "cover.png",
+          "src": "assets/projects/2023/昆山金鹰B馆开业/cover.png"
+        },
+        {
+          "name": "图片10.png",
+          "src": "assets/projects/2023/昆山金鹰B馆开业/图片10.png"
+        },
+        {
+          "name": "图片11.png",
+          "src": "assets/projects/2023/昆山金鹰B馆开业/图片11.png"
+        },
+        {
+          "name": "图片12.png",
+          "src": "assets/projects/2023/昆山金鹰B馆开业/图片12.png"
+        },
+        {
+          "name": "图片13.png",
+          "src": "assets/projects/2023/昆山金鹰B馆开业/图片13.png"
+        },
+        {
+          "name": "图片14.png",
+          "src": "assets/projects/2023/昆山金鹰B馆开业/图片14.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "商业空间、品牌活动和传播素材的项目记录，突出活动氛围与视觉产出。"
+    },
+    {
+      "id": "2023-苏州中心2024跨年",
+      "year": "2023",
+      "title": "苏州中心2024跨年",
+      "category": "商业活动",
+      "tags": [
+        "城市商业",
+        "节庆活动",
+        "传播素材"
+      ],
+      "role": "品牌活动 / 会务执行 / 传播素材整理",
+      "cover": "assets/projects/2023/苏州中心2024跨年/cover.jpg",
+      "images": [
+        {
+          "name": "ScreenShot_2026-06-10_134914_036.png",
+          "src": "assets/projects/2023/苏州中心2024跨年/ScreenShot_2026-06-10_134914_036.png"
+        },
+        {
+          "name": "cover.jpg",
+          "src": "assets/projects/2023/苏州中心2024跨年/cover.jpg"
+        },
+        {
+          "name": "图片18.png",
+          "src": "assets/projects/2023/苏州中心2024跨年/图片18.png"
+        },
+        {
+          "name": "图片19.png",
+          "src": "assets/projects/2023/苏州中心2024跨年/图片19.png"
+        },
+        {
+          "name": "图片20.png",
+          "src": "assets/projects/2023/苏州中心2024跨年/图片20.png"
+        }
+      ],
+      "docs": [],
+      "media": [],
+      "featured": false,
+      "summary": "商业空间、品牌活动和传播素材的项目记录，突出活动氛围与视觉产出。"
+    }
+  ],
+  "stats": {
+    "projects": 24,
+    "years": [
+      "2026",
+      "2025",
+      "2024",
+      "2023"
+    ],
+    "images": 164,
+    "docs": 34,
+    "media": 8
+  }
+};

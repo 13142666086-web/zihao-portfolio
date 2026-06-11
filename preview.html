@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>刘子豪 -- 品牌内容运营</title>
+    <script src="./data.js"></script>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; background: #0c0c0c; color: #d7e2ea; font-family: "Arial Black", "PingFang SC", system-ui, sans-serif; scroll-behavior: smooth; }
+      body { overflow-x: hidden; }
+      a, button { color: inherit; font: inherit; }
+      a { text-decoration: none; }
+      .hero { position: relative; min-height: 100vh; overflow: hidden; padding: 28px 7vw 48px; display: flex; flex-direction: column; background: radial-gradient(circle at 50% 50%, rgba(120,120,120,.12), transparent 28rem), #0c0c0c; }
+      .nav { display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 3; font-size: 15px; font-weight: 900; letter-spacing: .08em; }
+      .nav a { opacity: .9; }
+      .title { margin: 36px 0 0; position: relative; z-index: 2; text-align: center; font-size: clamp(78px, 15vw, 230px); line-height: .78; letter-spacing: -.075em; text-transform: uppercase; background: linear-gradient(180deg, #646973, #bbccd7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+      .head { position: absolute; left: 50%; bottom: -2vw; width: clamp(300px, 35vw, 540px); transform: translateX(-50%); animation: float 5.4s ease-in-out infinite; filter: drop-shadow(0 40px 70px rgba(0,0,0,.8)); mix-blend-mode: screen; z-index: 2; }
+      .bottom { margin-top: auto; display: flex; justify-content: space-between; align-items: end; position: relative; z-index: 3; }
+      .intro { max-width: 280px; font-size: 14px; line-height: 1.35; font-weight: 800; letter-spacing: .08em; }
+      .cta { border: 2px solid #fff; border-radius: 999px; padding: 15px 38px; background: linear-gradient(123deg, #18011f 7%, #b600a8 37%, #7621b0 72%, #be4c00 100%); color: #fff; font-weight: 900; letter-spacing: .12em; box-shadow: 4px 4px 12px #7721b1 inset; }
+      .marquee { overflow: hidden; padding: 90px 0 40px; display: grid; gap: 14px; }
+      .row { display: flex; gap: 14px; width: max-content; animation: slide 36s linear infinite; }
+      .row.reverse { animation-direction: reverse; margin-left: -420px; }
+      .row img { width: 420px; height: 270px; object-fit: cover; border-radius: 22px; opacity: .9; }
+      .about { min-height: 100vh; display: grid; place-items: center; padding: 100px 7vw; text-align: center; position: relative; }
+      .mega { margin: 0 0 32px; font-size: clamp(54px, 12vw, 170px); line-height: .82; letter-spacing: -.06em; text-transform: uppercase; background: linear-gradient(180deg, #646973, #bbccd7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+      .about p { max-width: 740px; margin: 0 auto 42px; font-size: 22px; line-height: 1.9; font-family: "PingFang SC", system-ui, sans-serif; font-weight: 600; }
+      .services { background: #fff; color: #0c0c0c; border-radius: 58px 58px 0 0; padding: 110px 7vw; }
+      .services h2 { text-align: center; font-size: clamp(64px, 12vw, 170px); line-height: .82; letter-spacing: -.06em; margin: 0 0 70px; }
+      .service { max-width: 1050px; margin: auto; display: grid; grid-template-columns: 220px 1fr; gap: 36px; align-items: center; border-top: 1px solid rgba(12,12,12,.15); padding: 34px 0; }
+      .service:last-child { border-bottom: 1px solid rgba(12,12,12,.15); }
+      .service strong { font-size: clamp(54px, 9vw, 130px); line-height: .82; }
+      .service h3 { margin: 0 0 10px; font-size: 28px; }
+      .service p { margin: 0; font-family: "PingFang SC", system-ui, sans-serif; line-height: 1.8; opacity: .66; }
+      .projects { margin-top: -48px; background: #0c0c0c; border-radius: 58px 58px 0 0; padding: 110px 4vw; }
+      .project-list { max-width: 1500px; margin: 58px auto 0; display: grid; gap: 22px; }
+      .card { border: 2px solid #d7e2ea; border-radius: 52px; background: #0c0c0c; padding: 26px; cursor: pointer; }
+      .card-top { display: grid; grid-template-columns: minmax(86px,.18fr) minmax(130px,.3fr) minmax(0,1fr) auto; gap: 18px; align-items: center; margin-bottom: 18px; }
+      .card-num { font-size: clamp(46px, 6vw, 88px); line-height: .8; font-weight: 900; }
+      .card-type { font-size: 16px; font-weight: 900; }
+      .card-title { min-width: 0; font-size: clamp(20px, 2.1vw, 34px); line-height: 1.12; overflow-wrap: anywhere; font-weight: 900; }
+      .live { border: 2px solid #d7e2ea; border-radius: 999px; background: none; padding: 12px 26px; cursor: pointer; font-size: 13px; font-weight: 900; }
+      .image-grid { display: grid; grid-template-columns: .4fr .6fr; gap: 14px; }
+      .thumbs { display: grid; gap: 14px; }
+      .thumbs img, .main-img { width: 100%; object-fit: cover; border-radius: 38px; }
+      .thumbs img { height: 210px; }
+      .main-img { height: 435px; }
+      .contact { min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 100px 7vw; }
+      .contact h2 { max-width: 980px; margin: 0 auto; font-size: clamp(54px, 8vw, 120px); line-height: .88; letter-spacing: -.06em; background: linear-gradient(180deg, #646973, #bbccd7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+      .resume-summary { max-width: 980px; margin: 30px auto 0; font-family: "PingFang SC", system-ui, sans-serif; font-size: clamp(17px, 1.55vw, 25px); line-height: 2; font-weight: 600; letter-spacing: 0; color: rgba(215,226,234,.82); }
+      .modal { position: fixed; inset: 0; z-index: 20; background: rgba(0,0,0,.82); backdrop-filter: blur(16px); display: none; place-items: center; padding: 36px; }
+      .modal.open { display: grid; }
+      .detail { width: min(1420px, 100%); max-height: calc(100vh - 72px); overflow: auto; border: 2px solid #d7e2ea; border-radius: 52px; background: #0c0c0c; padding: 30px; }
+      .close { float: right; border: 2px solid #d7e2ea; border-radius: 999px; background: #0c0c0c; color: #d7e2ea; padding: 10px 18px; cursor: pointer; }
+      .detail-head { display: grid; grid-template-columns: 150px minmax(0,1fr); gap: 22px; align-items: center; clear: both; margin: 0 70px 22px 0; }
+      .detail-head strong { display: inline-flex; align-items: center; justify-content: center; width: 128px; height: 128px; border: 2px solid #d7e2ea; border-radius: 50%; font-size: clamp(30px, 3vw, 48px); line-height: 1; }
+      .detail-head h3 { margin: 6px 0 20px; font-size: clamp(34px, 4.8vw, 82px); line-height: 1.02; overflow-wrap: anywhere; }
+      .detail-layout { display: grid; grid-template-columns: .38fr .62fr; gap: 14px; }
+      .detail-side { display: grid; gap: 14px; }
+      .detail-side img, .detail-main, .gallery img { width: 100%; object-fit: cover; border-radius: 36px; }
+      .detail-side img { height: 250px; }
+      .detail-main { height: 515px; }
+      .detail-layout.single { display: block; }
+      .detail-layout.single .detail-main { height: min(58vh, 620px); object-fit: contain; background: #090909; }
+      .summary { font-family: "PingFang SC", system-ui, sans-serif; max-width: 900px; line-height: 1.9; color: rgba(215,226,234,.78); font-size: 18px; }
+      .tags { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 24px; }
+      .tags span { border: 1px solid rgba(215,226,234,.4); border-radius: 999px; padding: 8px 12px; }
+      .gallery { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; }
+      .gallery img { height: 180px; }
+      @keyframes float { 0%,100% { transform: translateX(-50%) translateY(0) rotate(-1deg); } 50% { transform: translateX(-50%) translateY(-16px) rotate(1.5deg); } }
+      @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-33.333%); } }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <nav class="nav"><a href="#about">关于</a><a href="#services">能力</a><a href="#projects">项目</a><a href="#contact">联系</a></nav>
+      <h1 class="title">Hi, i'm Zihao</h1>
+      <img class="head" src="./assets/generated/designer-avatar-head.png" alt="刘子豪 3D 卡通头像" />
+      <div class="bottom"><p class="intro">B2B品牌内容运营 / 内容项目管理 / 新媒体内容策划</p><a class="cta" href="#contact">联系我</a></div>
+    </section>
+    <section class="marquee" id="marquee"></section>
+    <section class="about" id="about"><div><h2 class="mega">关于我</h2><p>近3年活动策划执行经验，半年B2B品牌内容运营与项目管理经验。熟悉客户需求沟通、项目排期推进、供应商协调与内容交付管理；现阶段主要服务AI制药、生物科技类客户，参与品牌内容、官网、公众号快讯、靶点调研、小红书选题、视频脚本与展会物料协同等工作。</p><a class="cta" href="#contact">联系我</a></div></section>
+    <section class="services" id="services"><h2>能力</h2><div id="servicesList"></div></section>
+    <section class="projects" id="projects"><h2 class="mega">项目</h2><div class="project-list" id="projectList"></div></section>
+    <section class="contact" id="contact"><div><p>江苏·苏州 / 品牌内容运营 / 内容项目管理</p><h2>个人概述</h2><p class="resume-summary">近3年活动策划执行经验，半年B2B品牌内容运营与项目管理经验。熟悉客户需求沟通、项目排期推进、供应商协调与内容交付管理；现阶段主要服务AI制药、生物科技类客户，参与品牌内容、官网、公众号快讯、靶点调研、小红书选题、视频脚本与展会物料协同等工作。具备专业资料拆解、行业信息整合与AI辅助内容生产能力，能将复杂材料转化为适合传播和汇报的内容。</p><p>879400092@qq.com · 13142666086</p></div></section>
+    <div class="modal" id="modal"><article class="detail" id="detail"></article></div>
+    <script>
+      const data = window.PORTFOLIO_DATA;
+      const projects = data.projects;
+      const services = [
+        ["01", "内容策划", "公众号快讯、行业选题、靶点调研、小红书图文与视频策划。"],
+        ["02", "项目推进", "客户汇报、需求拆解、排期管理、供应商协调与交付验收。"],
+        ["03", "活动执行", "商业、企业、政府活动落地，物料统筹与现场协调。"],
+        ["04", "AI工具应用", "专业资料整理、初稿生成、报告结构搭建与人工审校优化。"],
+        ["05", "品牌协同", "Logo、官网、视觉物料与外部设计供应商协同，跟进品牌调性与交付质量。"],
+        ["06", "软件工具", "Office全套、基础平面工具与物料调整，短视频拍摄与剪辑学习中。"]
+      ];
+      const imgs = projects.flatMap(p => [p.cover, ...(p.images || []).slice(0,1).map(i => i.src)]).filter(Boolean).slice(0, 18);
+      const makeRow = (arr, cls="") => `<div class="row ${cls}">${[...arr,...arr,...arr].map(src=>`<img src="${src}" alt="">`).join("")}</div>`;
+      document.getElementById("marquee").innerHTML = makeRow(imgs.slice(0,9)) + makeRow(imgs.slice(9), "reverse");
+      document.getElementById("servicesList").innerHTML = services.map(s => `<article class="service"><strong>${s[0]}</strong><div><h3>${s[1]}</h3><p>${s[2]}</p></div></article>`).join("");
+      const imagesFor = p => {
+        if (p.title === "医图生科") {
+          const logo = (p.images || []).find(i => i.name === "logo.png") || (p.images || []).find(i => (i.section || "").includes("Logo"));
+          return [logo?.src || p.cover].filter(Boolean);
+        }
+        return [p.cover, ...(p.images || []).filter(i => i.src !== p.cover).map(i => i.src), p.cover].filter(Boolean);
+      };
+      document.getElementById("projectList").innerHTML = projects.map((p, i) => {
+        const im = imagesFor(p);
+        return `<article class="card" data-id="${p.id}"><div class="card-top"><strong class="card-num">${String(i+1).padStart(2,"0")}</strong><span class="card-type">${p.category}</span><span class="card-title">${p.title}</span><button class="live">查看项目</button></div><div class="image-grid"><div class="thumbs"><img src="${im[1]||im[0]}" alt=""><img src="${im[2]||im[0]}" alt=""></div><img class="main-img" src="${im[0]}" alt=""></div></article>`;
+      }).join("");
+      const modal = document.getElementById("modal");
+      const detail = document.getElementById("detail");
+      document.querySelectorAll(".card").forEach(card => card.addEventListener("click", () => {
+        const p = projects.find(x => x.id === card.dataset.id);
+        const im = imagesFor(p);
+        const side = im.slice(1, 3);
+        const gallery = p.title === "医图生科" ? [] : im.slice(3, 11);
+        detail.innerHTML = `<button class="close">关闭</button><div class="detail-head"><strong>${p.year}</strong><div><span>${p.category}</span><h3>${p.title}</h3></div></div><div class="detail-layout ${side.length ? "" : "single"}">${side.length ? `<div class="detail-side">${side.map(src=>`<img src="${src}" alt="">`).join("")}</div>` : ""}<img class="detail-main" src="${im[0]}" alt=""></div><p class="summary">${p.summary}</p><div class="tags">${p.tags.map(t=>`<span>${t}</span>`).join("")}</div>${gallery.length ? `<div class="gallery">${gallery.map(src=>`<img src="${src}" alt="">`).join("")}</div>` : ""}`;
+        modal.classList.add("open");
+        detail.querySelector(".close").onclick = () => modal.classList.remove("open");
+      }));
+      modal.addEventListener("click", e => { if (e.target === modal) modal.classList.remove("open"); });
+    </script>
+  </body>
+</html>
