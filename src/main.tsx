@@ -2,7 +2,9 @@ import React, { ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import { Mail } from "lucide-react";
+import BorderGlow from "./BorderGlow";
 import DotField from "./DotField";
+import PillNav from "./PillNav";
 import "./styles.css";
 
 type MediaItem = {
@@ -177,15 +179,16 @@ function App() {
     <>
       <div className="site-background" aria-hidden="true">
         <DotField
-          dotRadius={1.35}
-          dotSpacing={17}
-          cursorRadius={430}
-          bulgeStrength={48}
-          glowRadius={260}
-          gradientFrom="rgba(136, 191, 225, 0.18)"
-          gradientTo="rgba(189, 86, 205, 0.22)"
-          glowColor="rgba(171, 39, 178, 0.32)"
-          waveAmplitude={0.6}
+          dotRadius={2.1}
+          dotSpacing={15}
+          cursorRadius={520}
+          bulgeStrength={72}
+          glowRadius={340}
+          gradientFrom="rgba(126, 216, 255, 0.38)"
+          gradientTo="rgba(209, 114, 255, 0.34)"
+          glowColor="rgba(163, 78, 255, 0.48)"
+          sparkle
+          waveAmplitude={1.1}
         />
       </div>
       <main className="main-shell">
@@ -322,15 +325,26 @@ function ViewProjectButton({ onClick }: { onClick: () => void }) {
 }
 
 function HeroSection() {
+  const directions = ["内容策划", "品牌内容运营", "内容项目管理", "活动执行"];
+
   return (
     <section className="hero-section" id="hero">
       <FadeIn delay={0} y={-20}>
-        <nav className="hero-nav" aria-label="Main navigation">
-          <a href="#about">关于</a>
-          <a href="#services">能力</a>
-          <a href="#projects">项目</a>
-          <a href="#contact">联系</a>
-        </nav>
+        <PillNav
+          logo={avatar}
+          logoAlt="刘子豪头像"
+          items={[
+            { label: "关于", href: "#about" },
+            { label: "能力", href: "#services" },
+            { label: "项目", href: "#projects" },
+            { label: "联系", href: "#contact" },
+          ]}
+          activeHref="#hero"
+          baseColor="#d7e2ea"
+          pillColor="#0b0c0e"
+          hoveredPillTextColor="#0b0c0e"
+          pillTextColor="#d7e2ea"
+        />
       </FadeIn>
 
       <FadeIn delay={0.15} y={40} className="hero-title-wrap">
@@ -347,7 +361,14 @@ function HeroSection() {
 
       <div className="hero-bottom">
         <FadeIn delay={0.35} y={20}>
-          <p>B2B品牌内容运营 / 内容项目管理 / 新媒体内容策划</p>
+          <div className="hero-role-block">
+            <span>岗位方向</span>
+            <div className="role-chip-list">
+              {directions.map((item) => (
+                <strong key={item}>{item}</strong>
+              ))}
+            </div>
+          </div>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>
           <ContactButton />
@@ -453,12 +474,12 @@ function AboutSection() {
 
 function ServicesSection() {
   const services = [
-    ["01", "内容策划", "公众号快讯、行业选题、靶点调研、小红书图文与视频策划。"],
-    ["02", "项目推进", "客户汇报、需求拆解、排期管理、供应商协调与交付验收。"],
-    ["03", "活动执行", "商业、企业、政府活动落地，物料统筹与现场协调。"],
-    ["04", "AI工具应用", "专业资料整理、初稿生成、报告结构搭建与人工审校优化。"],
-    ["05", "品牌协同", "Logo、官网、视觉物料与外部设计供应商协同，跟进品牌调性与交付质量。"],
-    ["06", "软件工具", "Office全套、基础平面工具与物料调整，短视频拍摄与剪辑学习中。"],
+    ["01", "内容策划", "公众号快讯、行业选题、小红书图文、视频脚本与活动传播主题策划。"],
+    ["02", "品牌内容运营", "围绕B2B客户进行官网内容、公众号文章、社媒内容与品牌资料整理。"],
+    ["03", "内容项目管理", "客户汇报、需求拆解、排期推进、反馈收敛、供应商协调与交付验收。"],
+    ["04", "活动执行", "商业、企业、政府活动落地，物料统筹、现场协调与活动复盘。"],
+    ["05", "AI工具应用", "专业资料整理、初稿生成、报告结构搭建与人工审校优化。"],
+    ["06", "视觉与物料协同", "基础平面工具、短视频拍摄剪辑学习中，可对接设计与制作供应商推进交付。"],
   ];
 
   return (
@@ -497,20 +518,22 @@ function ProjectsSection({ projects, onOpen }: { projects: Project[]; onOpen: (p
           const isOpen = openYear === group.year;
           return (
             <FadeIn key={group.year}>
-              <article className={`year-card ${isOpen ? "open" : ""}`}>
-                <button className="year-card-head" type="button" onClick={() => setOpenYear(isOpen ? "" : group.year)}>
-                  <strong>{group.year}</strong>
-                  <span>项目经历 / 内容归档</span>
-                  <em>{isOpen ? "收起" : "展开"}</em>
-                </button>
-                {isOpen && (
-                  <div className="year-projects">
-                    {group.projects.map((project, index) => (
-                      <ProjectCard project={project} index={index} onOpen={onOpen} key={project.id} />
-                    ))}
-                  </div>
-                )}
-              </article>
+              <BorderGlow className={`year-card-glow ${isOpen ? "open" : ""}`} borderRadius={52} animated={group.year === groups[0]?.year}>
+                <article className="year-card">
+                  <button className="year-card-head" type="button" onClick={() => setOpenYear(isOpen ? "" : group.year)}>
+                    <strong>{group.year}</strong>
+                    <span>项目经历 / 内容归档</span>
+                    <em>{isOpen ? "收起" : "展开"}</em>
+                  </button>
+                  {isOpen && (
+                    <div className="year-projects">
+                      {group.projects.map((project, index) => (
+                        <ProjectCard project={project} index={index} onOpen={onOpen} key={project.id} />
+                      ))}
+                    </div>
+                  )}
+                </article>
+              </BorderGlow>
             </FadeIn>
           );
         })}
@@ -525,23 +548,25 @@ function ProjectCard({ project, index, onOpen }: { project: Project; index: numb
 
   return (
     <FadeIn delay={Math.min(index * 0.04, 0.3)}>
-      <article className="project-card">
-        <div className="project-card-top">
-          <strong>{String(index + 1).padStart(2, "0")}</strong>
-          <span>{project.category}</span>
-          <h3>{project.title}</h3>
-          <ViewProjectButton onClick={() => onOpen(project)} />
-        </div>
-        <button className={`project-image-grid ${hasSideImages ? "" : "single-image"}`} type="button" onClick={() => onOpen(project)}>
-          {hasSideImages && (
-            <div>
-              <img src={images[1]} alt={`${project.title} 辅图`} />
-              {images[2] && <img src={images[2]} alt={`${project.title} 辅图`} />}
-            </div>
-          )}
-          <img src={images[0]} alt={project.title} />
-        </button>
-      </article>
+      <BorderGlow className="project-card-glow" borderRadius={48} glowRadius={32} fillOpacity={0.2}>
+        <article className="project-card">
+          <div className="project-card-top">
+            <strong>{String(index + 1).padStart(2, "0")}</strong>
+            <span>{project.category}</span>
+            <h3>{project.title}</h3>
+            <ViewProjectButton onClick={() => onOpen(project)} />
+          </div>
+          <button className={`project-image-grid ${hasSideImages ? "" : "single-image"}`} type="button" onClick={() => onOpen(project)}>
+            {hasSideImages && (
+              <div>
+                <img src={images[1]} alt={`${project.title} 辅图`} />
+                {images[2] && <img src={images[2]} alt={`${project.title} 辅图`} />}
+              </div>
+            )}
+            <img src={images[0]} alt={project.title} />
+          </button>
+        </article>
+      </BorderGlow>
     </FadeIn>
   );
 }
@@ -569,47 +594,59 @@ function ProjectDetail({ project, onClose }: { project: Project; onClose: () => 
 
   return (
     <motion.div className="detail-overlay" onClick={onClose} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-      <motion.article
-        className="detail-card"
+      <motion.div
+        className="detail-card-shell"
         onClick={(event) => event.stopPropagation()}
         initial={{ y: 60, scale: 0.96 }}
         animate={{ y: 0, scale: 1 }}
         transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
       >
-        <button className="detail-close" onClick={onClose} type="button">关闭</button>
-        <div className="detail-head">
-          <strong>{project.year}</strong>
-          <div>
-            <span>{project.category}</span>
-            <h3>{project.title}</h3>
-          </div>
-        </div>
-        <div className="detail-media-layout">
-          {sideImages.length > 0 && (
-            <div className="detail-side-images">
-              {sideImages.map((src, index) => (
-                <img src={src} alt={`${project.title} 辅图 ${index + 1}`} key={`${src}-${index}`} />
-              ))}
+        <BorderGlow className="detail-card-glow" borderRadius={54} glowRadius={46} animated>
+          <article className="detail-card">
+            <button className="detail-close" onClick={onClose} type="button">关闭</button>
+            <div className="detail-head">
+              <strong>{project.year}</strong>
+              <div>
+                <span>{project.category}</span>
+                <h3>{project.title}</h3>
+              </div>
             </div>
-          )}
-          <img className="detail-main-image" src={images[0]} alt={`${project.title} 主图`} />
-        </div>
-        <p className="detail-summary">{project.summary}</p>
-        <div className="detail-tags">
-          {project.tags.map((tag) => <span key={tag}>{tag}</span>)}
-        </div>
-        {galleryImages.length > 0 && (
-          <div className="detail-gallery">
-            {galleryImages.map((src, index) => (
-              <img src={src} alt={`${project.title} 更多图片 ${index + 1}`} key={`${src}-${index}`} />
-            ))}
-          </div>
-        )}
-        {project.caseStudy && <CaseStudyBlock project={project} />}
-        {project.links && project.links.length > 0 && <ProjectLinks links={project.links} />}
-        {project.videos && project.videos.length > 0 && <ProjectVideos videos={project.videos} />}
-      </motion.article>
+            <div className="detail-media-layout">
+              {sideImages.length > 0 && (
+                <div className="detail-side-images">
+                  {sideImages.map((src, index) => (
+                    <img src={src} alt={`${project.title} 辅图 ${index + 1}`} key={`${src}-${index}`} />
+                  ))}
+                </div>
+              )}
+              <img className="detail-main-image" src={images[0]} alt={`${project.title} 主图`} />
+            </div>
+            <p className="detail-summary">{project.summary}</p>
+            <div className="detail-tags">
+              {project.tags.map((tag) => <span key={tag}>{tag}</span>)}
+            </div>
+            {galleryImages.length > 0 && (
+              <div className="detail-gallery">
+                {galleryImages.map((src, index) => (
+                  <img src={src} alt={`${project.title} 更多图片 ${index + 1}`} key={`${src}-${index}`} />
+                ))}
+              </div>
+            )}
+            {project.caseStudy && <CaseStudyBlock project={project} />}
+            {project.links && project.links.length > 0 && <ProjectLinks links={project.links} />}
+            {project.videos && project.videos.length > 0 && <ProjectVideos videos={project.videos} />}
+          </article>
+        </BorderGlow>
+      </motion.div>
     </motion.div>
+  );
+}
+
+function GlowMiniCard({ children }: { children: ReactNode }) {
+  return (
+    <BorderGlow className="mini-card-glow" borderRadius={18} glowRadius={22} fillOpacity={0.18}>
+      {children}
+    </BorderGlow>
   );
 }
 
@@ -620,10 +657,12 @@ function CaseStudyBlock({ project }: { project: Project }) {
       <h4>项目职责</h4>
       <div className="case-grid">
         {project.caseStudy.highlights.map((item) => (
-          <article key={item.title}>
-            <h4>{item.title}</h4>
-            <p>{item.text}</p>
-          </article>
+          <GlowMiniCard key={item.title}>
+            <article>
+              <h4>{item.title}</h4>
+              <p>{item.text}</p>
+            </article>
+          </GlowMiniCard>
         ))}
       </div>
     </section>
@@ -636,10 +675,12 @@ function ProjectLinks({ links }: { links: NonNullable<Project["links"]> }) {
       <h4>相关链接</h4>
       <div>
         {links.map((link) => (
-          <a href={link.url} target="_blank" rel="noreferrer" key={link.url}>
-            <strong>{link.title}</strong>
-            <span>{link.note}</span>
-          </a>
+          <GlowMiniCard key={link.url}>
+            <a href={link.url} target="_blank" rel="noreferrer">
+              <strong>{link.title}</strong>
+              <span>{link.note}</span>
+            </a>
+          </GlowMiniCard>
         ))}
       </div>
     </section>
@@ -652,11 +693,13 @@ function ProjectVideos({ videos }: { videos: NonNullable<Project["videos"]> }) {
       <h4>视频记录</h4>
       <div>
         {videos.map((video) => (
-          <article key={video.src}>
-            <video src={video.src} controls playsInline preload="metadata" />
-            <h5>{video.title}</h5>
-            <p>{video.note}</p>
-          </article>
+          <GlowMiniCard key={video.src}>
+            <article>
+              <video src={video.src} controls playsInline preload="metadata" />
+              <h5>{video.title}</h5>
+              <p>{video.note}</p>
+            </article>
+          </GlowMiniCard>
         ))}
       </div>
     </section>
