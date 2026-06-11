@@ -993,10 +993,6 @@ button {
 }
 
 @media (max-width: 900px) {
-  .dot-field-container {
-    display: none;
-  }
-
   .hero-section {
     min-height: 100svh;
     padding-top: 5.5rem;

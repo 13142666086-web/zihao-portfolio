@@ -179,15 +179,15 @@ function App() {
     <>
       <div className="site-background" aria-hidden="true">
         <DotField
-          dotRadius={1.35}
-          dotSpacing={24}
-          cursorRadius={340}
-          bulgeStrength={34}
-          glowRadius={220}
+          dotRadius={1.2}
+          dotSpacing={28}
+          cursorRadius={300}
+          bulgeStrength={28}
+          glowRadius={190}
           gradientFrom="rgba(126, 216, 255, 0.24)"
           gradientTo="rgba(209, 114, 255, 0.2)"
           glowColor="rgba(163, 78, 255, 0.32)"
-          waveAmplitude={0.24}
+          waveAmplitude={0.16}
         />
       </div>
       <main className="main-shell">
