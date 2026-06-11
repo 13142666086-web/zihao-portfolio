@@ -44,20 +44,20 @@ declare global {
 }
 
 const portfolio = window.PORTFOLIO_DATA;
-const avatar = "assets/generated/designer-avatar-head.png";
+const avatar = "assets/optimized/generated/designer-avatar-head.jpg";
 const priority = ["医疗科技", "城市文旅", "文旅活动", "企业会务", "商业活动", "科技大会", "医疗健康"];
 
 const medAssets = {
   logo: "assets/curated/med/logo.png",
-  poster: "assets/curated/med/quantum-poster.png",
+  poster: "assets/optimized/med/quantum-poster.jpg",
   modelFront: "assets/curated/med/quantum-model-front.jpg",
   modelAngle: "assets/curated/med/quantum-model-angle.jpg",
   countdown: "assets/curated/med/countdown.png",
   event: "assets/curated/med/2050-event.png",
   recruit: "assets/curated/med/recruit.png",
   partnership: "assets/curated/med/partnership.png",
-  xhsPlatform: "assets/curated/med/xhs-platform.png",
-  xhsGsk: "assets/curated/med/xhs-gsk.png",
+  xhsPlatform: "assets/optimized/med/xhs-platform.jpg",
+  xhsGsk: "assets/optimized/med/xhs-gsk.jpg",
   flashVideo: "assets/curated/med/2050-flash.mp4",
   recapVideo: "assets/curated/med/2050-recap.mp4",
 };
@@ -68,14 +68,14 @@ const zhuoruProject: Project = {
   title: "琢如小红书图文策划",
   category: "内容策划",
   tags: ["小红书图文", "内容策划", "品牌传播", "内容视觉协同"],
-  cover: "assets/curated/zhuoru/breakthrough.png",
+  cover: "assets/optimized/zhuoru/breakthrough.jpg",
   images: [
-    { name: "breakthrough.png", src: "assets/curated/zhuoru/breakthrough.png", section: "小红书图文" },
-    { name: "mask.png", src: "assets/curated/zhuoru/mask.png", section: "小红书图文" },
-    { name: "healing.png", src: "assets/curated/zhuoru/healing.png", section: "小红书图文" },
-    { name: "womens-day.png", src: "assets/curated/zhuoru/womens-day.png", section: "节日内容" },
-    { name: "travel.png", src: "assets/curated/zhuoru/travel.png", section: "场景内容" },
-    { name: "serum.png", src: "assets/curated/zhuoru/serum.png", section: "产品内容" },
+    { name: "breakthrough.jpg", src: "assets/optimized/zhuoru/breakthrough.jpg", section: "小红书图文" },
+    { name: "mask.jpg", src: "assets/optimized/zhuoru/mask.jpg", section: "小红书图文" },
+    { name: "healing.jpg", src: "assets/optimized/zhuoru/healing.jpg", section: "小红书图文" },
+    { name: "womens-day.jpg", src: "assets/optimized/zhuoru/womens-day.jpg", section: "节日内容" },
+    { name: "travel.jpg", src: "assets/optimized/zhuoru/travel.jpg", section: "场景内容" },
+    { name: "serum.jpg", src: "assets/optimized/zhuoru/serum.jpg", section: "产品内容" },
   ],
   media: [],
   summary: "围绕琢如护肤产品和品牌调性进行小红书图文选题、文案方向与视觉内容协同，形成可用于社媒发布的内容素材。",
@@ -350,7 +350,7 @@ function HeroSection() {
       <FadeIn delay={0.6} y={30}>
         <div className="hero-portrait">
           <Magnet className="hero-magnet" padding={90} strength={18}>
-            <img src={avatar} alt="刘子豪 3D 卡通头像" />
+            <img src={avatar} alt="刘子豪 3D 卡通头像" decoding="async" fetchPriority="high" />
           </Magnet>
         </div>
       </FadeIn>
@@ -395,10 +395,10 @@ function MarqueeSection({ projects }: { projects: Project[] }) {
   return (
     <section className="marquee-section" ref={ref}>
       <div className="marquee-row" style={{ transform: `translateX(${offset - 200}px)` }}>
-        {[...rowOne, ...rowOne, ...rowOne].map((src, index) => <img src={src} alt="" loading="lazy" key={`${src}-${index}`} />)}
+        {[...rowOne, ...rowOne, ...rowOne].map((src, index) => <img src={src} alt="" loading="lazy" decoding="async" key={`${src}-${index}`} />)}
       </div>
       <div className="marquee-row" style={{ transform: `translateX(${-offset + 200}px)` }}>
-        {[...rowTwo, ...rowTwo, ...rowTwo].map((src, index) => <img src={src} alt="" loading="lazy" key={`${src}-${index}`} />)}
+        {[...rowTwo, ...rowTwo, ...rowTwo].map((src, index) => <img src={src} alt="" loading="lazy" decoding="async" key={`${src}-${index}`} />)}
       </div>
     </section>
   );
@@ -611,11 +611,11 @@ function ProjectDetail({ project, onClose }: { project: Project; onClose: () => 
               {sideImages.length > 0 && (
                 <div className="detail-side-images">
                   {sideImages.map((src, index) => (
-                    <img src={src} alt={`${project.title} 辅图 ${index + 1}`} key={`${src}-${index}`} />
+                    <img src={src} alt={`${project.title} 辅图 ${index + 1}`} loading="lazy" decoding="async" key={`${src}-${index}`} />
                   ))}
                 </div>
               )}
-              <img className="detail-main-image" src={images[0]} alt={`${project.title} 主图`} />
+              <img className="detail-main-image" src={images[0]} alt={`${project.title} 主图`} decoding="async" />
             </div>
             <p className="detail-summary">{project.summary}</p>
             <div className="detail-tags">
@@ -624,7 +624,7 @@ function ProjectDetail({ project, onClose }: { project: Project; onClose: () => 
             {galleryImages.length > 0 && (
               <div className="detail-gallery">
                 {galleryImages.map((src, index) => (
-                  <img src={src} alt={`${project.title} 更多图片 ${index + 1}`} key={`${src}-${index}`} />
+                  <img src={src} alt={`${project.title} 更多图片 ${index + 1}`} loading="lazy" decoding="async" key={`${src}-${index}`} />
                 ))}
               </div>
             )}
@@ -690,15 +690,29 @@ function ProjectVideos({ videos }: { videos: NonNullable<Project["videos"]> }) {
       <div>
         {videos.map((video) => (
           <GlowMiniCard key={video.src}>
-            <article>
-              <video src={video.src} controls playsInline preload="metadata" />
-              <h5>{video.title}</h5>
-              <p>{video.note}</p>
-            </article>
+            <VideoCard video={video} />
           </GlowMiniCard>
         ))}
       </div>
     </section>
+  );
+}
+
+function VideoCard({ video }: { video: NonNullable<Project["videos"]>[number] }) {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  return (
+    <article>
+      {isLoaded ? (
+        <video src={video.src} controls playsInline preload="metadata" />
+      ) : (
+        <button className="video-placeholder" type="button" onClick={() => setIsLoaded(true)}>
+          <span>播放视频</span>
+        </button>
+      )}
+      <h5>{video.title}</h5>
+      <p>{video.note}</p>
+    </article>
   );
 }
 

@@ -10,6 +10,8 @@ async function copyDir(source, target) {
     recursive: true,
     filter: (src) => {
       if (src.includes(`${path.sep}assets${path.sep}projects${path.sep}2026${path.sep}医图生科`)) return false;
+      if (/assets\/curated\/med\/(quantum-poster|xhs-platform|xhs-gsk)\.png$/i.test(src)) return false;
+      if (/assets\/generated\/designer-avatar(-head)?\.png$/i.test(src)) return false;
       return !/\.(mp4|mov|mp3|MP3)$/i.test(src);
     },
   });
@@ -18,6 +20,7 @@ async function copyDir(source, target) {
 await fs.copyFile(path.join(root, "data.js"), path.join(dist, "data.js"));
 await copyDir(path.join(root, "assets", "curated"), path.join(dist, "assets", "curated"));
 await copyDir(path.join(root, "assets", "generated"), path.join(dist, "assets", "generated"));
+await copyDir(path.join(root, "assets", "optimized"), path.join(dist, "assets", "optimized"));
 await copyDir(path.join(root, "assets", "projects"), path.join(dist, "assets", "projects"));
 await fs.mkdir(path.join(dist, "assets", "curated", "med"), { recursive: true });
 await fs.copyFile(
