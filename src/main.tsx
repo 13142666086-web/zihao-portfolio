@@ -179,16 +179,15 @@ function App() {
     <>
       <div className="site-background" aria-hidden="true">
         <DotField
-          dotRadius={2.1}
-          dotSpacing={15}
-          cursorRadius={520}
-          bulgeStrength={72}
-          glowRadius={340}
-          gradientFrom="rgba(126, 216, 255, 0.38)"
-          gradientTo="rgba(209, 114, 255, 0.34)"
-          glowColor="rgba(163, 78, 255, 0.48)"
-          sparkle
-          waveAmplitude={1.1}
+          dotRadius={1.35}
+          dotSpacing={24}
+          cursorRadius={340}
+          bulgeStrength={34}
+          glowRadius={220}
+          gradientFrom="rgba(126, 216, 255, 0.24)"
+          gradientTo="rgba(209, 114, 255, 0.2)"
+          glowColor="rgba(163, 78, 255, 0.32)"
+          waveAmplitude={0.24}
         />
       </div>
       <main className="main-shell">
@@ -263,8 +262,7 @@ function Magnet({
   className?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [transform, setTransform] = useState("translate3d(0,0,0)");
-  const [active, setActive] = useState(false);
+  const frameRef = useRef<number | null>(null);
 
   useEffect(() => {
     const onMove = (event: MouseEvent) => {
@@ -278,31 +276,29 @@ function Magnet({
         event.clientY < rect.bottom + padding;
 
       if (!inside) {
-        setActive(false);
-        setTransform("translate3d(0,0,0)");
+        element.style.transition = "transform 0.65s ease-in-out";
+        element.style.transform = "translate3d(0,0,0)";
         return;
       }
 
-      setActive(true);
       const x = (event.clientX - (rect.left + rect.width / 2)) / strength;
       const y = (event.clientY - (rect.top + rect.height / 2)) / strength;
-      setTransform(`translate3d(${x}px, ${y}px, 0)`);
+      if (frameRef.current) window.cancelAnimationFrame(frameRef.current);
+      frameRef.current = window.requestAnimationFrame(() => {
+        element.style.transition = "transform 0.28s ease-out";
+        element.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+      });
     };
 
     window.addEventListener("mousemove", onMove, { passive: true });
-    return () => window.removeEventListener("mousemove", onMove);
+    return () => {
+      window.removeEventListener("mousemove", onMove);
+      if (frameRef.current) window.cancelAnimationFrame(frameRef.current);
+    };
   }, [padding, strength]);
 
   return (
-    <div
-      ref={ref}
-      className={className}
-      style={{
-        transform,
-        transition: active ? "transform 0.3s ease-out" : "transform 0.6s ease-in-out",
-        willChange: "transform",
-      }}
-    >
+    <div ref={ref} className={className}>
       {children}
     </div>
   );
@@ -353,7 +349,7 @@ function HeroSection() {
 
       <FadeIn delay={0.6} y={30}>
         <div className="hero-portrait">
-          <Magnet className="hero-magnet">
+          <Magnet className="hero-magnet" padding={90} strength={18}>
             <img src={avatar} alt="刘子豪 3D 卡通头像" />
           </Magnet>
         </div>

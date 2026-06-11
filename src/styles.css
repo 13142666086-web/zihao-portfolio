@@ -110,7 +110,7 @@ button {
 .hero-title-wrap {
   position: relative;
   z-index: 20;
-  margin-top: clamp(1rem, 2vw, 2.4rem);
+  margin-top: clamp(4.8rem, 7.2vw, 7.4rem);
   overflow: hidden;
 }
 
@@ -118,9 +118,9 @@ button {
   width: 100%;
   white-space: nowrap;
   text-align: center;
-  font-size: clamp(7rem, 15.6vw, 18rem);
+  font-size: clamp(5.9rem, 13.8vw, 15.8rem);
   font-weight: 900;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.045em;
   line-height: 0.82;
   text-transform: uppercase;
 }
@@ -128,10 +128,11 @@ button {
 .hero-portrait {
   position: absolute;
   left: 50%;
-  bottom: -3.5vw;
+  top: 57%;
+  bottom: auto;
   z-index: 10;
-  width: clamp(300px, 33vw, 510px);
-  transform: translateX(-50%);
+  width: clamp(230px, 24vw, 390px);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .hero-magnet,
@@ -140,12 +141,18 @@ button {
   width: 100%;
 }
 
+.hero-magnet {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.65s ease-in-out;
+  will-change: transform;
+}
+
 .hero-magnet img {
   display: block;
   width: 100%;
   border-radius: 50%;
   filter: drop-shadow(0 40px 80px rgba(0, 0, 0, 0.65));
-  animation: headFloat 5.5s ease-in-out infinite;
+  animation: headFloat 7.2s ease-in-out infinite;
   transform-origin: 50% 80%;
   mix-blend-mode: screen;
 }
@@ -974,7 +981,7 @@ button {
   }
 
   .hero-title-wrap {
-    margin-top: 0;
+    margin-top: 0.45rem;
     overflow: visible;
     padding: 0 1rem;
   }
@@ -987,9 +994,9 @@ button {
   }
 
   .hero-portrait {
-    top: 49%;
+    top: 45%;
     bottom: auto;
-    width: clamp(238px, 68vw, 330px);
+    width: clamp(210px, 58vw, 280px);
     transform: translateX(-50%) translateY(-50%);
   }
 
@@ -1059,8 +1066,8 @@ button {
   }
 
   .hero-portrait {
-    top: 47%;
-    width: min(68vw, 286px);
+    top: 44%;
+    width: min(60vw, 250px);
   }
 
   .role-chip-list strong {
@@ -1071,9 +1078,9 @@ button {
 @keyframes headFloat {
   0%,
   100% {
-    transform: translate3d(0, 0, 0) rotate(-1deg);
+    transform: translate3d(0, 0, 0) rotate(-0.35deg);
   }
   50% {
-    transform: translate3d(0, -16px, 0) rotate(1.5deg);
+    transform: translate3d(0, -7px, 0) rotate(0.55deg);
   }
 }

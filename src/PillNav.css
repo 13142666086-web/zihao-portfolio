@@ -1,15 +1,15 @@
 .pill-nav-container {
   position: fixed;
-  top: 1.25rem;
+  top: 0.95rem;
   left: 50%;
   z-index: 70;
   transform: translateX(-50%);
 }
 
 .pill-nav {
-  --nav-h: 46px;
-  --pill-pad-x: 18px;
-  --pill-gap: 4px;
+  --nav-h: 40px;
+  --pill-pad-x: 15px;
+  --pill-gap: 3px;
   display: flex;
   width: max-content;
   align-items: center;
@@ -38,7 +38,7 @@
   border: 1px solid rgb(255 255 255 / 14%);
   border-radius: 50%;
   background: var(--base, #d7e2ea);
-  padding: 6px;
+  padding: 5px;
   box-shadow: 0 18px 55px rgb(0 0 0 / 26%);
 }
 
@@ -78,7 +78,7 @@
   cursor: pointer;
   padding: 0 var(--pill-pad-x);
   font-family: "PingFang SC", "Kanit", sans-serif;
-  font-size: 0.92rem;
+  font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   line-height: 1;
@@ -202,6 +202,7 @@
 
 @media (max-width: 768px) {
   .pill-nav-container {
+    top: 0.85rem;
     right: 0;
     left: 0;
     width: 100%;
