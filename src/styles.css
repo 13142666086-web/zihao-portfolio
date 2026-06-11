@@ -38,7 +38,33 @@ button {
 }
 
 .main-shell {
+  position: relative;
+  z-index: 1;
   overflow-x: clip;
+  background:
+    radial-gradient(circle at 50% 8%, rgba(182, 0, 168, 0.13), transparent 28rem),
+    linear-gradient(180deg, rgba(12, 12, 12, 0.68), rgba(12, 12, 12, 0.9) 42%, rgba(12, 12, 12, 0.72));
+}
+
+.site-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 10%, rgba(126, 25, 117, 0.2), transparent 34rem),
+    radial-gradient(circle at 14% 25%, rgba(68, 151, 190, 0.12), transparent 28rem),
+    #080909;
+}
+
+.site-background::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(8, 9, 9, 0.9), transparent 18%, transparent 82%, rgba(8, 9, 9, 0.9)),
+    linear-gradient(180deg, rgba(8, 9, 9, 0.36), transparent 30%, rgba(8, 9, 9, 0.76));
 }
 
 .hero-heading {
@@ -55,9 +81,9 @@ button {
   flex-direction: column;
   overflow-x: clip;
   background:
-    radial-gradient(circle at 50% 48%, rgba(182, 0, 168, 0.2), transparent 22rem),
-    radial-gradient(circle at 16% 12%, rgba(91, 202, 255, 0.11), transparent 24rem),
-    #0c0c0c;
+    radial-gradient(circle at 50% 48%, rgba(182, 0, 168, 0.16), transparent 22rem),
+    radial-gradient(circle at 16% 12%, rgba(91, 202, 255, 0.08), transparent 24rem),
+    transparent;
 }
 
 .hero-nav {
@@ -167,7 +193,7 @@ button {
   gap: 0.75rem;
   overflow: hidden;
   padding: clamp(6rem, 12vw, 10rem) 0 2.5rem;
-  background: #0c0c0c;
+  background: rgba(12, 12, 12, 0.78);
 }
 
 .marquee-row {
@@ -192,7 +218,7 @@ button {
   min-height: 100vh;
   overflow: hidden;
   padding: clamp(5rem, 8vw, 8rem) 2.5rem;
-  background: #0c0c0c;
+  background: rgba(12, 12, 12, 0.72);
 }
 
 .about-panel {
@@ -357,7 +383,7 @@ button {
   z-index: 10;
   margin-top: -3.5rem;
   border-radius: clamp(40px, 5vw, 60px) clamp(40px, 5vw, 60px) 0 0;
-  background: #0c0c0c;
+  background: rgba(12, 12, 12, 0.82);
   padding: clamp(5rem, 9vw, 8rem) 2.5rem 10rem;
 }
 
@@ -803,8 +829,8 @@ button {
   padding: 6rem 2.5rem;
   text-align: center;
   background:
-    radial-gradient(circle at 50% 48%, rgba(182, 0, 168, 0.2), transparent 26rem),
-    #0c0c0c;
+    radial-gradient(circle at 50% 48%, rgba(182, 0, 168, 0.16), transparent 26rem),
+    rgba(12, 12, 12, 0.62);
 }
 
 .contact-section p {

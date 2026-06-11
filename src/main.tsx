@@ -2,6 +2,7 @@ import React, { ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import { Mail } from "lucide-react";
+import DotField from "./DotField";
 import "./styles.css";
 
 type MediaItem = {
@@ -41,7 +42,7 @@ declare global {
 }
 
 const portfolio = window.PORTFOLIO_DATA;
-const avatar = "/assets/generated/designer-avatar-head.png";
+const avatar = "assets/generated/designer-avatar-head.png";
 const priority = ["医疗科技", "城市文旅", "文旅活动", "企业会务", "商业活动", "科技大会", "医疗健康"];
 
 const medAssets = {
@@ -173,15 +174,30 @@ function App() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
 
   return (
-    <main className="main-shell">
-      <HeroSection />
-      <MarqueeSection projects={featured} />
-      <AboutSection />
-      <ServicesSection />
-      <ProjectsSection projects={projects} onOpen={setActiveProject} />
-      <ContactSection />
-      {activeProject && <ProjectDetail project={activeProject} onClose={() => setActiveProject(null)} />}
-    </main>
+    <>
+      <div className="site-background" aria-hidden="true">
+        <DotField
+          dotRadius={1.35}
+          dotSpacing={17}
+          cursorRadius={430}
+          bulgeStrength={48}
+          glowRadius={260}
+          gradientFrom="rgba(136, 191, 225, 0.18)"
+          gradientTo="rgba(189, 86, 205, 0.22)"
+          glowColor="rgba(171, 39, 178, 0.32)"
+          waveAmplitude={0.6}
+        />
+      </div>
+      <main className="main-shell">
+        <HeroSection />
+        <MarqueeSection projects={featured} />
+        <AboutSection />
+        <ServicesSection />
+        <ProjectsSection projects={projects} onOpen={setActiveProject} />
+        <ContactSection />
+        {activeProject && <ProjectDetail project={activeProject} onClose={() => setActiveProject(null)} />}
+      </main>
+    </>
   );
 }
 
